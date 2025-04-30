@@ -106,27 +106,22 @@
             <researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
         </recipeMaker>
         <statBases>
-			<WorkToMake>150000</WorkToMake>
-			<MaxHitPoints>4000</MaxHitPoints>
-			<Mass>5</Mass>
+			<WorkToMake>90000</WorkToMake>
+			<MaxHitPoints>700</MaxHitPoints>
+			<Mass>11.0</Mass>
 			<Flammability>0.0</Flammability>
-			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
-			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
-			<ArmorRating_Heat>2.20</ArmorRating_Heat>
-			<Insulation_Cold>60</Insulation_Cold>
-			<Insulation_Heat>60</Insulation_Heat>
+			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.80</ArmorRating_Heat>
+			<Insulation_Cold>40</Insulation_Cold>
+			<Insulation_Heat>14</Insulation_Heat>
 			<EquipDelay>15</EquipDelay>
 		</statBases>
 		<costList>
-			<ComponentSpacer>40</ComponentSpacer>
-			<ComponentIndustrial>70</ComponentIndustrial>
-			<GW_ComponentRelic>2</GW_ComponentRelic>
-			<Plasteel>500</Plasteel>
-			<Steel>900</Steel>
-			<Uranium>190</Uranium>
-			<HP_Ceramite>220</HP_Ceramite>
-			<HP_Adamantium>140</HP_Adamantium>
-			<HP_Auramite>60</HP_Auramite>
+			<ComponentSpacer>12</ComponentSpacer>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>250</Plasteel>
+			<HP_Ceramite>180</HP_Ceramite>
 		</costList>
 		<equippedStatOffsets>
 			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
