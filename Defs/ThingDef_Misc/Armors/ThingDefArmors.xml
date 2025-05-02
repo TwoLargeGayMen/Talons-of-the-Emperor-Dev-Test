@@ -115,17 +115,21 @@
 			<ArmorRating_Heat>0.80</ArmorRating_Heat>
 			<Insulation_Cold>40</Insulation_Cold>
 			<Insulation_Heat>14</Insulation_Heat>
+			<InjuryHealingFactor>1.15</InjuryHealingFactor>
 			<EquipDelay>15</EquipDelay>
+			<MarketValue>6000</MarketValue>
 		</statBases>
 		<costList>
-			<ComponentSpacer>12</ComponentSpacer>
-			<GW_ComponentRelic>1</GW_ComponentRelic>
-			<Plasteel>250</Plasteel>
-			<HP_Ceramite>180</HP_Ceramite>
+			<ComponentSpacer>8</ComponentSpacer>
+			<ComponentIndustrial>12</ComponentIndustrial>
+			<Plasteel>110</Plasteel>
+			<HP_Ceramite>80</HP_Ceramite>
+			<HP_Auramite>10</HP_Auramite>
 		</costList>
 		<equippedStatOffsets>
 			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
 			<PawnBeauty>50</PawnBeauty>
+			<PainShockThreshold>0.05</PainShockThreshold>
 		</equippedStatOffsets>
 		<apparel>
 			<wornGraphicPath>Things/CustodesArmors/Custodes/CGuard_torso</wornGraphicPath>
@@ -158,31 +162,32 @@
             <researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
         </recipeMaker>
         <statBases>
-			<WorkToMake>150000</WorkToMake>
-			<MaxHitPoints>4000</MaxHitPoints>
-			<Mass>5</Mass>
+			<WorkToMake>90000</WorkToMake>
+			<MaxHitPoints>700</MaxHitPoints>
+			<Mass>11.0</Mass>
 			<Flammability>0.0</Flammability>
-			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
-			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
-			<ArmorRating_Heat>2.20</ArmorRating_Heat>
-			<Insulation_Cold>60</Insulation_Cold>
-			<Insulation_Heat>60</Insulation_Heat>
+			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.80</ArmorRating_Heat>
+			<Insulation_Cold>40</Insulation_Cold>
+			<Insulation_Heat>14</Insulation_Heat>
+			<InjuryHealingFactor>1.15</InjuryHealingFactor>
 			<EquipDelay>15</EquipDelay>
+			<MarketValue>6500</MarketValue>
 		</statBases>
 		<costList>
-			<ComponentSpacer>40</ComponentSpacer>
-			<ComponentIndustrial>70</ComponentIndustrial>
-			<GW_ComponentRelic>2</GW_ComponentRelic>
-			<Plasteel>500</Plasteel>
-			<Steel>900</Steel>
-			<Uranium>190</Uranium>
-			<HP_Ceramite>220</HP_Ceramite>
-			<HP_Adamantium>140</HP_Adamantium>
-			<HP_Auramite>60</HP_Auramite>
+			<ComponentSpacer>8</ComponentSpacer>
+			<ComponentIndustrial>12</ComponentIndustrial>
+			<Plasteel>110</Plasteel>
+			<HP_Ceramite>80</HP_Ceramite>
+			<HP_Auramite>10</HP_Auramite>
+			<Gold>100</Gold>
 		</costList>
 		<equippedStatOffsets>
 			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
 			<PawnBeauty>50</PawnBeauty>
+			<PainShockThreshold>0.05</PainShockThreshold>
+			<MentalBreakThreshold>0.05</MentalBreakThreshold>
 		</equippedStatOffsets>
 		<apparel>
 			<wornGraphicPath>Things/CustodesArmors/Custodes/Warden_torso</wornGraphicPath>
@@ -215,30 +220,31 @@
             <researchPrerequisite>GW_TotE_Allarus</researchPrerequisite>
         </recipeMaker>
         <statBases>
-			<WorkToMake>150000</WorkToMake>
-			<MaxHitPoints>4000</MaxHitPoints>
-			<Mass>5</Mass>
+			<WorkToMake>100000</WorkToMake>
+			<MaxHitPoints>750</MaxHitPoints>
+			<Mass>13.0</Mass>
 			<Flammability>0.0</Flammability>
-			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
-			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
-			<ArmorRating_Heat>2.20</ArmorRating_Heat>
-			<Insulation_Cold>60</Insulation_Cold>
-			<Insulation_Heat>60</Insulation_Heat>
-			<EquipDelay>15</EquipDelay>
+			<ArmorRating_Sharp>1.37</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.67</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.90</ArmorRating_Heat>
+			<Insulation_Cold>40</Insulation_Cold>
+			<Insulation_Heat>14</Insulation_Heat>
+			<InjuryHealingFactor>1.25</InjuryHealingFactor>
+			<EquipDelay>25</EquipDelay>
+			<MarketValue>7000</MarketValue>
 		</statBases>
 		<costList>
-			<ComponentSpacer>45</ComponentSpacer>
-			<ComponentIndustrial>80</ComponentIndustrial>
-			<GW_ComponentRelic>3</GW_ComponentRelic>
-			<Plasteel>500</Plasteel>
-			<Steel>900</Steel>
-			<Uranium>190</Uranium>
-			<HP_Ceramite>280</HP_Ceramite>
-			<HP_Adamantium>200</HP_Adamantium>
-			<HP_Auramite>90</HP_Auramite>
+			<ComponentSpacer>12</ComponentSpacer>
+			<GW_ComponentRelic>2</GW_ComponentRelic>
+			<Plasteel>250</Plasteel>
+			<HP_Ceramite>180</HP_Ceramite>
+			<HP_Adamantium>30</HP_Adamantium>
+			<HP_Auramite>10</HP_Auramite>
 		</costList>
 		<equippedStatOffsets>
-			<PawnBeauty>50</PawnBeauty>
+			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
+			<PainShockThreshold>0.07</PainShockThreshold>
+			<MoveSpeed>-0.35</MoveSpeed>
 		</equippedStatOffsets>
 		<apparel>
 			<wornGraphicPath>Things/CustodesArmors/Allarus/Allarus_torso</wornGraphicPath>
