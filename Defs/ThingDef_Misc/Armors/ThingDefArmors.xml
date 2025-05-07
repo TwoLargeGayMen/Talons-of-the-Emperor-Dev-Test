@@ -115,12 +115,11 @@
 			<ArmorRating_Heat>0.80</ArmorRating_Heat>
 			<Insulation_Cold>40</Insulation_Cold>
 			<Insulation_Heat>14</Insulation_Heat>
-			<InjuryHealingFactor>1.15</InjuryHealingFactor>
 			<EquipDelay>15</EquipDelay>
-			<MarketValue>6000</MarketValue>
+			<MarketValue>4200</MarketValue>
 		</statBases>
 		<costList>
-			<ComponentSpacer>8</ComponentSpacer>
+			<ComponentSpacer>6</ComponentSpacer>
 			<ComponentIndustrial>12</ComponentIndustrial>
 			<Plasteel>110</Plasteel>
 			<HP_Ceramite>80</HP_Ceramite>
@@ -129,6 +128,7 @@
 		<equippedStatOffsets>
 			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
 			<PawnBeauty>50</PawnBeauty>
+			<InjuryHealingFactor>0.15</InjuryHealingFactor>
 			<PainShockThreshold>0.05</PainShockThreshold>
 		</equippedStatOffsets>
 		<apparel>
@@ -171,23 +171,21 @@
 			<ArmorRating_Heat>0.80</ArmorRating_Heat>
 			<Insulation_Cold>40</Insulation_Cold>
 			<Insulation_Heat>14</Insulation_Heat>
-			<InjuryHealingFactor>1.15</InjuryHealingFactor>
 			<EquipDelay>15</EquipDelay>
-			<MarketValue>6500</MarketValue>
+			<MarketValue>4200</MarketValue>
 		</statBases>
 		<costList>
-			<ComponentSpacer>8</ComponentSpacer>
-			<ComponentIndustrial>12</ComponentIndustrial>
+			<ComponentSpacer>6</ComponentSpacer>
+			<ComponentIndustrial>6</ComponentIndustrial>
 			<Plasteel>110</Plasteel>
 			<HP_Ceramite>80</HP_Ceramite>
 			<HP_Auramite>10</HP_Auramite>
-			<Gold>100</Gold>
 		</costList>
 		<equippedStatOffsets>
 			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
 			<PawnBeauty>50</PawnBeauty>
-			<PainShockThreshold>0.05</PainShockThreshold>
-			<MentalBreakThreshold>0.05</MentalBreakThreshold>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+			<InjuryHealingFactor>0.15</InjuryHealingFactor>
 		</equippedStatOffsets>
 		<apparel>
 			<wornGraphicPath>Things/CustodesArmors/Custodes/Warden_torso</wornGraphicPath>
@@ -234,7 +232,7 @@
 			<MarketValue>7000</MarketValue>
 		</statBases>
 		<costList>
-			<ComponentSpacer>12</ComponentSpacer>
+			<ComponentSpacer>7</ComponentSpacer>
 			<GW_ComponentRelic>2</GW_ComponentRelic>
 			<Plasteel>250</Plasteel>
 			<HP_Ceramite>180</HP_Ceramite>
@@ -285,30 +283,30 @@
             <researchPrerequisite>GW_TotE_Castellan</researchPrerequisite>
         </recipeMaker>
         <statBases>
-			<WorkToMake>150000</WorkToMake>
-			<MaxHitPoints>4000</MaxHitPoints>
-			<Mass>5</Mass>
+			<WorkToMake>135000</WorkToMake>
+			<MaxHitPoints>800</MaxHitPoints>
+			<MarketValue>4800</MarketValue>
+			<Mass>11.0</Mass>
 			<Flammability>0.0</Flammability>
-			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
-			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
-			<ArmorRating_Heat>2.20</ArmorRating_Heat>
-			<Insulation_Cold>60</Insulation_Cold>
-			<Insulation_Heat>60</Insulation_Heat>
-			<EquipDelay>15</EquipDelay>
+			<ArmorRating_Sharp>1.4</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.80</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.00</ArmorRating_Heat>
+			<Insulation_Cold>38</Insulation_Cold>
+			<Insulation_Heat>15</Insulation_Heat>
+			<EquipDelay>25</EquipDelay>
 		</statBases>
 		<costList>
-			<ComponentSpacer>50</ComponentSpacer>
-			<ComponentIndustrial>100</ComponentIndustrial>
-			<GW_ComponentRelic>4</GW_ComponentRelic>
-			<Plasteel>500</Plasteel>
-			<Steel>900</Steel>
-			<Uranium>190</Uranium>
-			<HP_Ceramite>300</HP_Ceramite>
-			<HP_Adamantium>240</HP_Adamantium>
-			<HP_Auramite>110</HP_Auramite>
+			<ComponentSpacer>8</ComponentSpacer>
+			<GW_ComponentRelic>3</GW_ComponentRelic>
+			<Plasteel>250</Plasteel>
+			<HP_Ceramite>180</HP_Ceramite>
+			<HP_Adamantium>40</HP_Adamantium>
+			<HP_Auramite>10</HP_Auramite>
 		</costList>
 		<equippedStatOffsets>
-			<PawnBeauty>50</PawnBeauty>
+			<InjuryHealingFactor>1.25</InjuryHealingFactor>
+			<MentalBreakThreshold>-0.08</MentalBreakThreshold>
+			<PainShockThreshold>0.1</PainShockThreshold>
 		</equippedStatOffsets>
 		<apparel>
 			<wornGraphicPath>Things/CustodesArmors/Castellan Plate/CastellanPlate_torso</wornGraphicPath>
@@ -350,30 +348,28 @@
             <researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
         </recipeMaker>
         <statBases>
-			<WorkToMake>150000</WorkToMake>
-			<MaxHitPoints>4000</MaxHitPoints>
-			<Mass>5</Mass>
+			<WorkToMake>72000</WorkToMake>
+			<MaxHitPoints>800</MaxHitPoints>
+			<MarketValue>4800</MarketValue>
+			<Mass>11.0</Mass>
 			<Flammability>0.0</Flammability>
-			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
-			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
-			<ArmorRating_Heat>2.20</ArmorRating_Heat>
-			<Insulation_Cold>60</Insulation_Cold>
-			<Insulation_Heat>60</Insulation_Heat>
+			<ArmorRating_Sharp>1.20</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.49</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.62</ArmorRating_Heat>
+			<Insulation_Cold>34</Insulation_Cold>
+			<Insulation_Heat>12</Insulation_Heat>
 			<EquipDelay>15</EquipDelay>
 		</statBases>
 		<costList>
-			<ComponentSpacer>45</ComponentSpacer>
-			<ComponentIndustrial>80</ComponentIndustrial>
-			<GW_ComponentRelic>3</GW_ComponentRelic>
-			<Plasteel>500</Plasteel>
-			<Steel>900</Steel>
-			<Uranium>190</Uranium>
-			<HP_Ceramite>280</HP_Ceramite>
-			<HP_Adamantium>200</HP_Adamantium>
-			<HP_Auramite>90</HP_Auramite>
+			<ComponentSpacer>3</ComponentSpacer>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>175</Plasteel>
+			<HP_Ceramite>140</HP_Ceramite>
+			<HP_Adamantium>35</HP_Adamantium>
+			<HP_Auramite>7</HP_Auramite>
 		</costList>
 		<equippedStatOffsets>
-			<PawnBeauty>50</PawnBeauty>
+			<MoveSpeed>0.15</MoveSpeed>
 		</equippedStatOffsets>
 		<apparel>
 			<wornGraphicPath>Things/CustodesArmors/SisterofSilence/CustodesSOS</wornGraphicPath>
@@ -428,30 +424,27 @@
             <researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
         </recipeMaker>
         <statBases>
-			<WorkToMake>150000</WorkToMake>
-			<MaxHitPoints>4000</MaxHitPoints>
-			<Mass>5</Mass>
+			<WorkToMake>90000</WorkToMake>
+			<MaxHitPoints>700</MaxHitPoints>
+			<MarketValue>4200</MarketValue>
+			<Mass>11.0</Mass>
 			<Flammability>0.0</Flammability>
-			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
-			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
-			<ArmorRating_Heat>2.20</ArmorRating_Heat>
-			<Insulation_Cold>60</Insulation_Cold>
-			<Insulation_Heat>60</Insulation_Heat>
+			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.80</ArmorRating_Heat>
+			<Insulation_Cold>40</Insulation_Cold>
+			<Insulation_Heat>14</Insulation_Heat>
 			<EquipDelay>15</EquipDelay>
 		</statBases>
 		<costList>
-			<ComponentSpacer>45</ComponentSpacer>
-			<ComponentIndustrial>80</ComponentIndustrial>
-			<GW_ComponentRelic>3</GW_ComponentRelic>
-			<Plasteel>500</Plasteel>
-			<Steel>900</Steel>
-			<Uranium>190</Uranium>
-			<HP_Ceramite>280</HP_Ceramite>
-			<HP_Adamantium>200</HP_Adamantium>
-			<HP_Auramite>90</HP_Auramite>
+			<ComponentSpacer>6</ComponentSpacer>
+			<Plasteel>110</Plasteel>
+			<HP_Ceramite>80</HP_Ceramite>
+			<HP_Auramite>10</HP_Auramite>
 		</costList>
 		<equippedStatOffsets>
-			<PawnBeauty>50</PawnBeauty>
+			<MeleeDodgeChance>10</MeleeDodgeChance>
+			<InjuryHealingFactor>0.15</InjuryHealingFactor>
 		</equippedStatOffsets>
 		<apparel>
 			<wornGraphicPath>Things/CustodesArmors/BladeChampion/CustodesBChampion</wornGraphicPath>
@@ -491,31 +484,29 @@
 		<recipeMaker>
             <researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
         </recipeMaker>
-        <statBases>
-			<WorkToMake>150000</WorkToMake>
-			<MaxHitPoints>4000</MaxHitPoints>
-			<Mass>5</Mass>
+       <statBases>
+			<WorkToMake>90000</WorkToMake>
+			<MaxHitPoints>700</MaxHitPoints>
+			<MarketValue>4200</MarketValue>
+			<Mass>11.0</Mass>
 			<Flammability>0.0</Flammability>
-			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
-			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
-			<ArmorRating_Heat>2.20</ArmorRating_Heat>
-			<Insulation_Cold>60</Insulation_Cold>
-			<Insulation_Heat>60</Insulation_Heat>
+			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.80</ArmorRating_Heat>
+			<Insulation_Cold>40</Insulation_Cold>
+			<Insulation_Heat>14</Insulation_Heat>
 			<EquipDelay>15</EquipDelay>
 		</statBases>
 		<costList>
-			<ComponentSpacer>45</ComponentSpacer>
-			<ComponentIndustrial>80</ComponentIndustrial>
-			<GW_ComponentRelic>3</GW_ComponentRelic>
-			<Plasteel>500</Plasteel>
-			<Steel>900</Steel>
-			<Uranium>190</Uranium>
-			<HP_Ceramite>280</HP_Ceramite>
-			<HP_Adamantium>200</HP_Adamantium>
-			<HP_Auramite>90</HP_Auramite>
+			<ComponentSpacer>8</ComponentSpacer>
+			<ComponentIndustrial>12</ComponentIndustrial>
+			<Plasteel>110</Plasteel>
+			<HP_Ceramite>80</HP_Ceramite>
+			<HP_Auramite>10</HP_Auramite>
 		</costList>
 		<equippedStatOffsets>
-			<PawnBeauty>50</PawnBeauty>
+			<SocialImpact>0.1</SocialImpact>
+			<InjuryHealingFactor>0.15</InjuryHealingFactor>
 		</equippedStatOffsets>
 		<apparel>
 			<wornGraphicPath>Things/CustodesArmors/EyeoftheEmperor/CustodesEOTE</wornGraphicPath>

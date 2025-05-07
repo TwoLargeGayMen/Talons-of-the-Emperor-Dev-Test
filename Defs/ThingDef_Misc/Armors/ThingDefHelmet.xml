@@ -89,31 +89,28 @@
 			</drawData>
 		</apparel>
 		<equippedStatOffsets>
-			<AimingDelayFactor>-0.3</AimingDelayFactor>
-			<SocialImpact>1.00</SocialImpact>
+			<PainShockThreshold>0.05</PainShockThreshold>
+			<ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
 			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
 			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>10</ComponentSpacer>
-			<ComponentIndustrial>25</ComponentIndustrial>
-			<GW_ComponentRelic>1</GW_ComponentRelic>
-			<Plasteel>400</Plasteel>
-			<Steel>600</Steel>
-			<Uranium>100</Uranium>
-			<HP_Ceramite>150</HP_Ceramite>
-			<HP_Adamantium>80</HP_Adamantium>
-			<HP_Auramite>30</HP_Auramite>
+			<ComponentSpacer>5</ComponentSpacer>
+			<ComponentIndustrial>12</ComponentIndustrial>
+			<Plasteel>110</Plasteel>
+			<HP_Ceramite>80</HP_Ceramite>			
+			<HP_Auramite>10</HP_Auramite>
 		</costList>
 		<statBases>
 			<WorkToMake>60000</WorkToMake>
-			<MaxHitPoints>2500</MaxHitPoints>
+			<MaxHitPoints>650</MaxHitPoints>
+			<MarketValue>1000</MarketValue>
 			<Mass>2</Mass>
-			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
-			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.70</ArmorRating_Heat>
-			<Insulation_Cold>10</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
+			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.67</ArmorRating_Heat>
+			<Insulation_Cold>8</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
@@ -166,31 +163,28 @@
 			</drawData>
 		</apparel>
 		<equippedStatOffsets>
-			<AimingDelayFactor>-0.3</AimingDelayFactor>
-			<SocialImpact>1.00</SocialImpact>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+			<ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
 			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
 			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>10</ComponentSpacer>
-			<ComponentIndustrial>25</ComponentIndustrial>
-			<GW_ComponentRelic>1</GW_ComponentRelic>
-			<Plasteel>400</Plasteel>
-			<Steel>600</Steel>
-			<Uranium>100</Uranium>
-			<HP_Ceramite>150</HP_Ceramite>
-			<HP_Adamantium>80</HP_Adamantium>
-			<HP_Auramite>30</HP_Auramite>
+			<ComponentSpacer>5</ComponentSpacer>
+			<ComponentIndustrial>12</ComponentIndustrial>
+			<Plasteel>110</Plasteel>
+			<HP_Ceramite>80</HP_Ceramite>			
+			<HP_Auramite>10</HP_Auramite>
 		</costList>
 		<statBases>
 			<WorkToMake>60000</WorkToMake>
-			<MaxHitPoints>2500</MaxHitPoints>
+			<MaxHitPoints>650</MaxHitPoints>
+			<MarketValue>1000</MarketValue>
 			<Mass>2</Mass>
-			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
-			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.70</ArmorRating_Heat>
-			<Insulation_Cold>10</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
+			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.67</ArmorRating_Heat>
+			<Insulation_Cold>8</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
@@ -243,31 +237,29 @@
 			</drawData>
 		</apparel>
 		<equippedStatOffsets>
-			<AimingDelayFactor>-0.3</AimingDelayFactor>
-			<SocialImpact>1.00</SocialImpact>
+			<MentalBreakThreshold>-0.08</MentalBreakThreshold>
+			<PainShockThreshold>0.05</PainShockThreshold>
+			<ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
 			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
 			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>20</ComponentSpacer>
-			<ComponentIndustrial>35</ComponentIndustrial>
-			<GW_ComponentRelic>2</GW_ComponentRelic>
-			<Plasteel>400</Plasteel>
-			<Steel>600</Steel>
-			<Uranium>100</Uranium>
-			<HP_Ceramite>200</HP_Ceramite>
-			<HP_Adamantium>120</HP_Adamantium>
-			<HP_Auramite>50</HP_Auramite>
+			<ComponentSpacer>6</ComponentSpacer>
+			<ComponentIndustrial>12</ComponentIndustrial>
+			<Plasteel>140</Plasteel>
+			<HP_Ceramite>80</HP_Ceramite>			
+			<HP_Auramite>20</HP_Auramite>
 		</costList>
 		<statBases>
-			<WorkToMake>60000</WorkToMake>
-			<MaxHitPoints>2500</MaxHitPoints>
+			<WorkToMake>75000</WorkToMake>
+			<MaxHitPoints>750</MaxHitPoints>
+			<MarketValue>1500</MarketValue>
 			<Mass>2</Mass>
-			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
-			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.70</ArmorRating_Heat>
-			<Insulation_Cold>10</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.60</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.72</ArmorRating_Heat>
+			<Insulation_Cold>8</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
@@ -311,31 +303,29 @@
 			<wornGraphicPath>Things/CustodesArmors/Sagittarum/Helmets/Sagittarum_helmet</wornGraphicPath>
 		</apparel>
 		<equippedStatOffsets>
-			<AimingDelayFactor>-0.3</AimingDelayFactor>
-			<SocialImpact>1.00</SocialImpact>
+			<MentalBreakThreshold>-0.08</MentalBreakThreshold>
+			<PainShockThreshold>0.05</PainShockThreshold>
+			<ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
 			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
 			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>10</ComponentSpacer>
-			<ComponentIndustrial>25</ComponentIndustrial>
-			<GW_ComponentRelic>1</GW_ComponentRelic>
-			<Plasteel>400</Plasteel>
-			<Steel>600</Steel>
-			<Uranium>100</Uranium>
-			<HP_Ceramite>200</HP_Ceramite>
-			<HP_Adamantium>120</HP_Adamantium>
-			<HP_Auramite>50</HP_Auramite>
+			<ComponentSpacer>6</ComponentSpacer>
+			<ComponentIndustrial>12</ComponentIndustrial>
+			<Plasteel>140</Plasteel>
+			<HP_Ceramite>80</HP_Ceramite>			
+			<HP_Auramite>20</HP_Auramite>
 		</costList>
 		<statBases>
-			<WorkToMake>60000</WorkToMake>
-			<MaxHitPoints>2500</MaxHitPoints>
+			<WorkToMake>75000</WorkToMake>
+			<MaxHitPoints>750</MaxHitPoints>
+			<MarketValue>1500</MarketValue>
 			<Mass>2</Mass>
-			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
-			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.70</ArmorRating_Heat>
-			<Insulation_Cold>10</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.60</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.72</ArmorRating_Heat>
+			<Insulation_Cold>8</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
@@ -375,6 +365,10 @@
 			<tags>
 				<li>GW_Venatari</li>
 			</tags>
+			<bodyPartGroups Inherit="false">
+				<li>Mouth</li>
+				<li>Neck</li>
+			</bodyPartGroups>
 			<drawData>
 				<defaultData>
 					<offset>(0,0,-0.05)</offset>
@@ -459,31 +453,29 @@
 			</drawData>
 		</apparel>
 		<equippedStatOffsets>
-			<AimingDelayFactor>-0.3</AimingDelayFactor>
-			<SocialImpact>1.00</SocialImpact>
+			<MoveSpeed>-0.15</MoveSpeed>
+			<PainShockThreshold>0.05</PainShockThreshold>
+			<ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
 			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
 			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>15</ComponentSpacer>
-			<ComponentIndustrial>30</ComponentIndustrial>
-			<GW_ComponentRelic>2</GW_ComponentRelic>
-			<Plasteel>400</Plasteel>
-			<Steel>600</Steel>
-			<Uranium>100</Uranium>
-			<HP_Ceramite>180</HP_Ceramite>
-			<HP_Adamantium>100</HP_Adamantium>
-			<HP_Auramite>45</HP_Auramite>
+			<ComponentIndustrial>11</ComponentIndustrial>
+			<ComponentSpacer>5</ComponentSpacer>
+			<Plasteel>125</Plasteel>
+			<HP_Ceramite>80</HP_Ceramite>			
+			<HP_Auramite>15</HP_Auramite>
 		</costList>
 		<statBases>
-			<WorkToMake>60000</WorkToMake>
-			<MaxHitPoints>2500</MaxHitPoints>
+			<WorkToMake>70000</WorkToMake>
+			<MaxHitPoints>700</MaxHitPoints>
+			<MarketValue>1200</MarketValue>
 			<Mass>2</Mass>
-			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
-			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.70</ArmorRating_Heat>
-			<Insulation_Cold>10</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.58</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.70</ArmorRating_Heat>
+			<Insulation_Cold>8</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
@@ -503,163 +495,7 @@
 				<compClass>SaveOurShip2.CompEVA</compClass>
 			</li>
 		</comps>
-	</ThingDef>
-	
-	<!-- Sister of Silence -->
-	<ThingDef ParentName="GW_TotEHelmetBase">
-		<defName>GW_TotE_SoSHelmetA</defName>
-		<label>Sister of Silence helmet (a)</label>
-		<description>The mask of a Silent Sister. Traditionally, the mouth of a Sister is always covered, representing their vow of silence. \n\nSisters of Silence primarily communicate in their own sign language, known as "Thoughtmark". Very few outside of the Sisters of Silence and the Adeptus Custodes can understand it - Sisters of a particularly sarcastic bent amuse themselves by signing to Space Marines and Imperial Guardsmen whom they know full well do not understand them.</description>
-		<graphicData>
-			<texPath>Things/CustodesArmors/SisterofSilence/Helmet/CustodesSOSHelmetA</texPath>
-		</graphicData>
-		<uiIconPath>Things/CustodesArmors/SisterofSilence/Helmet/CustodesSOSHelmetA</uiIconPath>
-		<apparel>
-			<tags>
-				<li>GW_Sagittarum</li>
-			</tags>
-			<wornGraphicPath>Things/CustodesArmors/SisterofSilence/Helmet/CustodesSOSHelmetA</wornGraphicPath>
-			<drawData>
-				<dataSouth>
-					<offset>(0, 0, 0.17)</offset>
-				</dataSouth>
-				<dataNorth>
-					<offset>(0, 0, 0.17)</offset>
-				</dataNorth>
-				<dataEast>
-					<offset>(0, 0, 0.17)</offset>
-				</dataEast>
-				<dataWest>
-					<offset>(0, 0, 0.17)</offset>
-				</dataWest>
-				<scale>0.9</scale>
-			</drawData>
-		</apparel>
-		<equippedStatOffsets>
-			<AimingDelayFactor>-0.3</AimingDelayFactor>
-			<SocialImpact>1.00</SocialImpact>
-			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
-			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
-		</equippedStatOffsets>
-		<costList>
-			<ComponentSpacer>10</ComponentSpacer>
-			<ComponentIndustrial>25</ComponentIndustrial>
-			<GW_ComponentRelic>1</GW_ComponentRelic>
-			<Plasteel>400</Plasteel>
-			<Steel>600</Steel>
-			<Uranium>100</Uranium>
-			<HP_Ceramite>200</HP_Ceramite>
-			<HP_Adamantium>120</HP_Adamantium>
-			<HP_Auramite>50</HP_Auramite>
-		</costList>
-		<statBases>
-			<WorkToMake>60000</WorkToMake>
-			<MaxHitPoints>2500</MaxHitPoints>
-			<Mass>2</Mass>
-			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
-			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.70</ArmorRating_Heat>
-			<Insulation_Cold>10</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
-			<EquipDelay>2</EquipDelay>
-		</statBases>
-		<recipeMaker>
-			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
-		</recipeMaker>
-		<comps>
-			<li Class="GW4KArmor.CompProperties_TriColorMask">
-				<maskCount>1</maskCount>
-				<palettePresets>GW_CS_HelmetChapterPalettesCustodes</palettePresets>
-				<defaultPalette>
-					<colorA>(250, 176, 67)</colorA>
-					<colorB>(250, 176, 67)</colorB>
-					<colorC>(180, 65, 74)</colorC>
-				</defaultPalette>
-			</li>
-			<li MayRequire="kentington.saveourship2">
-				<compClass>SaveOurShip2.CompEVA</compClass>
-			</li>
-		</comps>
-	</ThingDef>
-	
-	<ThingDef ParentName="GW_TotEHelmetBase">
-		<defName>GW_TotE_SoSHelmetB</defName>
-		<label>Sister of Silence helmet (b)</label>
-		<description>The helmet of a Silent Sister. Traditionally, the mouth of a Sister is always covered, representing their vow of silence. \n\nSisters of Silence primarily communicate in their own sign language, known as "Thoughtmark". Very few outside of the Sisters of Silence and the Adeptus Custodes can understand it - Sisters of a particularly sarcastic bent amuse themselves by signing to Space Marines and Imperial Guardsmen whom they know full well do not understand them.</description>
-		<graphicData>
-			<texPath>Things/CustodesArmors/SisterofSilence/Helmet/CustodesSOSHelmetB</texPath>
-		</graphicData>
-		<uiIconPath>Things/CustodesArmors/SisterofSilence/Helmet/CustodesSOSHelmetB</uiIconPath>
-		<apparel>
-			<tags>
-				<li>GW_SisterOfSilence</li>
-			</tags>
-			<!-- <renderSkipFlags> -->
-				<!-- <li>None</li> -->
-			<!-- </renderSkipFlags> -->
-			<wornGraphicPath>Things/CustodesArmors/SisterofSilence/Helmet/CustodesSOSHelmetB</wornGraphicPath>
-			<drawData>
-				<dataSouth>
-					<offset>(0, 0, 0.17)</offset>
-				</dataSouth>
-				<dataNorth>
-					<offset>(0, 0, 0.17)</offset>
-				</dataNorth>
-				<dataEast>
-					<offset>(0, 0, 0.17)</offset>
-				</dataEast>
-				<dataWest>
-					<offset>(0, 0, 0.17)</offset>
-				</dataWest>
-				<scale>0.9</scale>
-			</drawData>
-		</apparel>
-		<equippedStatOffsets>
-			<AimingDelayFactor>-0.3</AimingDelayFactor>
-			<SocialImpact>1.00</SocialImpact>
-			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
-			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
-		</equippedStatOffsets>
-		<costList>
-			<ComponentSpacer>10</ComponentSpacer>
-			<ComponentIndustrial>25</ComponentIndustrial>
-			<GW_ComponentRelic>1</GW_ComponentRelic>
-			<Plasteel>400</Plasteel>
-			<Steel>600</Steel>
-			<Uranium>100</Uranium>
-			<HP_Ceramite>200</HP_Ceramite>
-			<HP_Adamantium>120</HP_Adamantium>
-			<HP_Auramite>50</HP_Auramite>
-		</costList>
-		<statBases>
-			<WorkToMake>60000</WorkToMake>
-			<MaxHitPoints>2500</MaxHitPoints>
-			<Mass>2</Mass>
-			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
-			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.70</ArmorRating_Heat>
-			<Insulation_Cold>10</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
-			<EquipDelay>2</EquipDelay>
-		</statBases>
-		<recipeMaker>
-			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
-		</recipeMaker>
-		<comps>
-			<li Class="GW4KArmor.CompProperties_TriColorMask">
-				<maskCount>1</maskCount>
-				<palettePresets>GW_CS_HelmetChapterPalettesCustodes</palettePresets>
-				<defaultPalette>
-					<colorA>(250, 176, 67)</colorA>
-					<colorB>(250, 176, 67)</colorB>
-					<colorC>(180, 65, 74)</colorC>
-				</defaultPalette>
-			</li>
-			<li MayRequire="kentington.saveourship2">
-				<compClass>SaveOurShip2.CompEVA</compClass>
-			</li>
-		</comps>
-	</ThingDef>
+	</ThingDef>			
 	
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_BladeChampHelmet</defName>
@@ -678,31 +514,28 @@
 			</drawData>
 		</apparel>
 		<equippedStatOffsets>
-			<AimingDelayFactor>-0.3</AimingDelayFactor>
-			<SocialImpact>1.00</SocialImpact>
+			<MeleeDamageFactor>0.1</MeleeDamageFactor>
+			<ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
 			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
 			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>10</ComponentSpacer>
-			<ComponentIndustrial>25</ComponentIndustrial>
-			<GW_ComponentRelic>1</GW_ComponentRelic>
-			<Plasteel>400</Plasteel>
-			<Steel>600</Steel>
-			<Uranium>100</Uranium>
-			<HP_Ceramite>200</HP_Ceramite>
-			<HP_Adamantium>120</HP_Adamantium>
-			<HP_Auramite>50</HP_Auramite>
+			<ComponentIndustrial>12</ComponentIndustrial>
+			<ComponentSpacer>5</ComponentSpacer>
+			<Plasteel>110</Plasteel>
+			<HP_Ceramite>80</HP_Ceramite>			
+			<HP_Auramite>10</HP_Auramite>
 		</costList>
 		<statBases>
 			<WorkToMake>60000</WorkToMake>
-			<MaxHitPoints>2500</MaxHitPoints>
+			<MaxHitPoints>650</MaxHitPoints>
+			<MarketValue>1000</MarketValue>
 			<Mass>2</Mass>
-			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
-			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.70</ArmorRating_Heat>
-			<Insulation_Cold>10</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
+			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.67</ArmorRating_Heat>
+			<Insulation_Cold>8</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
@@ -757,31 +590,28 @@
 			</drawData>
 		</apparel>
 		<equippedStatOffsets>
-			<AimingDelayFactor>-0.3</AimingDelayFactor>
-			<SocialImpact>1.00</SocialImpact>
+			<SocialImpact>0.05</SocialImpact>
+			<ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
 			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
 			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>10</ComponentSpacer>
-			<ComponentIndustrial>25</ComponentIndustrial>
-			<GW_ComponentRelic>1</GW_ComponentRelic>
-			<Plasteel>400</Plasteel>
-			<Steel>600</Steel>
-			<Uranium>100</Uranium>
-			<HP_Ceramite>200</HP_Ceramite>
-			<HP_Adamantium>120</HP_Adamantium>
-			<HP_Auramite>50</HP_Auramite>
+			<ComponentIndustrial>12</ComponentIndustrial>
+			<ComponentSpacer>5</ComponentSpacer>
+			<Plasteel>110</Plasteel>
+			<HP_Ceramite>80</HP_Ceramite>			
+			<HP_Auramite>10</HP_Auramite>
 		</costList>
 		<statBases>
 			<WorkToMake>60000</WorkToMake>
-			<MaxHitPoints>2500</MaxHitPoints>
+			<MaxHitPoints>650</MaxHitPoints>
+			<MarketValue>1000</MarketValue>
 			<Mass>2</Mass>
-			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
-			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.70</ArmorRating_Heat>
-			<Insulation_Cold>10</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
+			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.67</ArmorRating_Heat>
+			<Insulation_Cold>8</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
@@ -790,6 +620,156 @@
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
 				<maskCount>2</maskCount>
+				<palettePresets>GW_CS_HelmetChapterPalettesCustodes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+			<li MayRequire="kentington.saveourship2">
+				<compClass>SaveOurShip2.CompEVA</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- Sister of Silence -->
+	<ThingDef ParentName="GW_TotEHelmetBase">
+		<defName>GW_TotE_SoSHelmetA</defName>
+		<label>Sister of Silence helmet (a)</label>
+		<description>The mask of a Silent Sister. Traditionally, the mouth of a Sister is always covered, representing their vow of silence. \n\nSisters of Silence primarily communicate in their own sign language, known as "Thoughtmark". Very few outside of the Sisters of Silence and the Adeptus Custodes can understand it - Sisters of a particularly sarcastic bent amuse themselves by signing to Space Marines and Imperial Guardsmen whom they know full well do not understand them.</description>
+		<graphicData>
+			<texPath>Things/CustodesArmors/SisterofSilence/Helmet/CustodesSOSHelmetA</texPath>
+		</graphicData>
+		<uiIconPath>Things/CustodesArmors/SisterofSilence/Helmet/CustodesSOSHelmetA</uiIconPath>
+		<apparel>
+			<tags>
+				<li>GW_Sagittarum</li>
+			</tags>
+			<wornGraphicPath>Things/CustodesArmors/SisterofSilence/Helmet/CustodesSOSHelmetA</wornGraphicPath>
+			<drawData>
+				<dataSouth>
+					<offset>(0, 0, 0.17)</offset>
+				</dataSouth>
+				<dataNorth>
+					<offset>(0, 0, 0.17)</offset>
+				</dataNorth>
+				<dataEast>
+					<offset>(0, 0, 0.17)</offset>
+				</dataEast>
+				<dataWest>
+					<offset>(0, 0, 0.17)</offset>
+				</dataWest>
+				<scale>0.9</scale>
+			</drawData>
+		</apparel>
+		<equippedStatOffsets>
+			<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+			<ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentSpacer>4</ComponentSpacer>
+			<Plasteel>100</Plasteel>
+			<HP_Ceramite>40</HP_Ceramite>			
+			<HP_Auramite>10</HP_Auramite>
+		</costList>
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<MaxHitPoints>750</MaxHitPoints>
+			<MarketValue>1500</MarketValue>
+			<Mass>2</Mass>
+			<ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.47</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.62</ArmorRating_Heat>
+			<Insulation_Cold>6</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
+		</recipeMaker>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>1</maskCount>
+				<palettePresets>GW_CS_HelmetChapterPalettesCustodes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+			<li MayRequire="kentington.saveourship2">
+				<compClass>SaveOurShip2.CompEVA</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+	
+		<ThingDef ParentName="GW_TotEHelmetBase">
+		<defName>GW_TotE_SoSHelmetB</defName>
+		<label>Sister of Silence helmet (b)</label>
+		<description>The helmet of a Silent Sister. Traditionally, the mouth of a Sister is always covered, representing their vow of silence. \n\nSisters of Silence primarily communicate in their own sign language, known as "Thoughtmark". Very few outside of the Sisters of Silence and the Adeptus Custodes can understand it - Sisters of a particularly sarcastic bent amuse themselves by signing to Space Marines and Imperial Guardsmen whom they know full well do not understand them.</description>
+		<graphicData>
+			<texPath>Things/CustodesArmors/SisterofSilence/Helmet/CustodesSOSHelmetB</texPath>
+		</graphicData>
+		<uiIconPath>Things/CustodesArmors/SisterofSilence/Helmet/CustodesSOSHelmetB</uiIconPath>
+		<apparel>
+			<tags>
+				<li>GW_SisterOfSilence</li>
+			</tags>
+			<!-- <renderSkipFlags> -->
+				<!-- <li>None</li> -->
+			<!-- </renderSkipFlags> -->
+			<wornGraphicPath>Things/CustodesArmors/SisterofSilence/Helmet/CustodesSOSHelmetB</wornGraphicPath>
+			<drawData>
+				<dataSouth>
+					<offset>(0, 0, 0.17)</offset>
+				</dataSouth>
+				<dataNorth>
+					<offset>(0, 0, 0.17)</offset>
+				</dataNorth>
+				<dataEast>
+					<offset>(0, 0, 0.17)</offset>
+				</dataEast>
+				<dataWest>
+					<offset>(0, 0, 0.17)</offset>
+				</dataWest>
+				<scale>0.9</scale>
+			</drawData>
+		</apparel>
+		<equippedStatOffsets>
+			<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+			<ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentSpacer>4</ComponentSpacer>
+			<Plasteel>100</Plasteel>
+			<HP_Ceramite>40</HP_Ceramite>			
+			<HP_Auramite>10</HP_Auramite>
+		</costList>
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<MaxHitPoints>750</MaxHitPoints>
+			<MarketValue>1500</MarketValue>
+			<Mass>2</Mass>
+			<ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.47</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.62</ArmorRating_Heat>
+			<Insulation_Cold>6</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
+		</recipeMaker>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>1</maskCount>
 				<palettePresets>GW_CS_HelmetChapterPalettesCustodes</palettePresets>
 				<defaultPalette>
 					<colorA>(250, 176, 67)</colorA>
