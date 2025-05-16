@@ -37,6 +37,8 @@
 	<ThingDef ParentName="GWTalonShieldBase">
 		<defName>GM_TotE_ShieldPraesidium</defName>
 		<label>Praesidium Shield</label>
+		<description>An ancient design of ballistic shield used by the Adeptus Custodes. Consisting of thick ceramite plated with auramite and backed by energy field generators, this shield can turn anyone into a solid bulwark against enemy attacks. \n\nThe design dates back to the Unification Wars, as does the Custodians themselves. They were the first gene-crafted warriors ever created by the God-Emperor of Mankind, followed soon by the Thunder Warriors, with whom He unified Terra.
+		\n\n&lt;color=#FFFF00&gt;Parry Stat&lt;/color&gt;\nParry Chance: 5%\nParry Cooldown: 1.5s\nStun Duration: 2s\nDamage Reduction: 50%\nDamage Nullify Chance: 60%\nPose Break duration: 2s\nReflect Damage Chance: 20%\nReflect Multiplier: 100%\nKnockback: No\nReflect Projectile chance: 20%</description>
 		<graphicData>
 			<texPath>Things/Weapons/Shield/Preview/PraesidiumShield</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -134,6 +136,8 @@
 	<ThingDef ParentName="GWTalonShieldBase">
 		<defName>GM_TotE_ShieldSCaptain</defName>
 		<label>S-Captain Shield</label>
+		<description>An ancient design of ballistic shield used by the Adeptus Custodes. Consisting of thick ceramite plated with auramite and backed by energy field generators, this shield can turn anyone into a solid bulwark against enemy attacks. \n\nThe design dates back to the Unification Wars, as does the Custodians themselves. They were the first gene-crafted warriors ever created by the God-Emperor of Mankind, followed soon by the Thunder Warriors, with whom He unified Terra.
+		\n\n&lt;color=#FFFF00&gt;Parry Stat&lt;/color&gt;\nParry Chance: 15%\nParry Cooldown: 2s\nStun Duration: 2s\nDamage Reduction: 50%\nDamage Nullify Chance: 40%\nPose Break duration: 2s\nReflect Damage Chance: 5%\nReflect Multiplier: 100%\nKnockback: Yes\nReflect Projectile chance: 20%</description>
 		<graphicData>
 			<texPath>Things/Weapons/SCaptainShield/CustodesSCaptainShieldA</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
