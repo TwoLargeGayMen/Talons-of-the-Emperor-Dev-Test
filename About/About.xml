@@ -8,11 +8,11 @@
    </supportedVersions>
    <modDependencies>
 		<li>
-          <packageId>Grimworld.Framework</packageId>
-          <displayName>GrimWorld 40,000 - Framework</displayName>
-          <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=3119805903</steamWorkshopUrl> 
-          <downloadUrl>https://github.com/GrimWorld-40-000/GrimWorld-Framework</downloadUrl>
-		</li>
+          <packageId>CVNGrimworld.Framework</packageId>
+          <displayName>CVN/GrimWorld 40,000 - Ocularis Terribus</displayName>
+          <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=3483499637</steamWorkshopUrl> 
+          <downloadUrl>https://github.com/ShunTheWitch/Chaos-core</downloadUrl>
+      </li>
 		<li>
 			<packageId>Grimworld.Core</packageId>
 			<displayName>Grimworld 40,000 - Core Imperialis</displayName>
