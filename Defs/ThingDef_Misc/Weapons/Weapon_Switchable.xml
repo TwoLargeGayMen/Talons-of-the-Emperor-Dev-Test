@@ -193,7 +193,7 @@
 		<defName>GW_TotE_GuardianSpearProjectile</defName>
 		<label>Guardian Spear bolt</label>
 		<graphicData>
-			<texPath>Projectiles/AM_BoltPistol_Proj</texPath>
+			<texPath>Projectiles/BoltPistol_Proj</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.8</drawSize>
 		</graphicData>
@@ -801,7 +801,7 @@
 		<defName>GW_TotE_CastellanAxeProjectile</defName>
 		<label>Castellan Axe bolt</label>
 		<graphicData>
-			<texPath>Projectiles/AM_BoltPistol_Proj</texPath>
+			<texPath>Projectiles/BoltPistol_Proj</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -1008,7 +1008,7 @@
 		<defName>GW_TotE_WatchersAxeProjectile</defName>
 		<label>Watcher's Axe bolt</label>
 		<graphicData>
-			<texPath>Projectiles/AM_BoltPistol_Proj</texPath>
+			<texPath>Projectiles/BoltPistol_Proj</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
