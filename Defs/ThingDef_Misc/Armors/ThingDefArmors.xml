@@ -120,9 +120,9 @@
 		</statBases>
 		<costList>
 			<ComponentSpacer>6</ComponentSpacer>
-			<ComponentIndustrial>12</ComponentIndustrial>
-			<Plasteel>110</Plasteel>
-			<HP_Ceramite>80</HP_Ceramite>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>250</Plasteel>
+			<HP_Ceramite>180</HP_Ceramite>
 			<HP_Auramite>10</HP_Auramite>
 		</costList>
 		<equippedStatOffsets>
@@ -176,9 +176,9 @@
 		</statBases>
 		<costList>
 			<ComponentSpacer>6</ComponentSpacer>
-			<ComponentIndustrial>6</ComponentIndustrial>
-			<Plasteel>110</Plasteel>
-			<HP_Ceramite>80</HP_Ceramite>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>250</Plasteel>
+			<HP_Ceramite>180</HP_Ceramite>
 			<HP_Auramite>10</HP_Auramite>
 		</costList>
 		<equippedStatOffsets>
