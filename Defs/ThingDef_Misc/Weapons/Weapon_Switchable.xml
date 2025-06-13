@@ -1,16 +1,8 @@
 <Defs>
 	<!-- Spear -->
-	<!-- Guardian Spear [Melee] -->
-	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
-		<defName>GW_TotE_GuardianSpear</defName>
-		<label>Guardian Spear</label>
-		<description>The traditional armament of the Adeptus Custodes, the Guardian Spear is a “combi-weapon” - a combination of two weapons in one. The golden spear's head is coated in a disruptive power field, allowing it to pierce through heavy armor, while the integrated Bolt Caster lays down heavy fire on more distant enemies. \n\nMany combi-weapons exist in the Imperium of Man. For example, the basic “Combi-bolter”, often seen in the Great Crusade and Horus Heresy eras, was simply two bolters attached side-to-side. Unlike the later Storm Bolters, they were only attached together later, not in the first place.</description>
-		<graphicData>
-			<texPath>Things/Weapons/SpearBolter</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Cutout</shaderType>
-			<drawSize>1.45</drawSize>
-		</graphicData>
+	<!-- Guardian Spear Base [Melee] -->
+
+	<ThingDef Name="GW_TOE_GuardianSpearMeleeBase" ParentName="GW_TotE_BaseMakeableMelee">
 		<recipeMaker>
 			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
 			<skillRequirements>
@@ -21,69 +13,38 @@
 				<li>GW_SM_TalonOfTheEmperor_WeaponBench</li>
 			</recipeUsers>
 		</recipeMaker>
-		<statBases>
-			<WorkToMake>34000</WorkToMake>
-			<Mass>8.5</Mass>
-		</statBases>
-		<costList>
-			<ComponentSpacer>23</ComponentSpacer>
-			<ComponentIndustrial>40</ComponentIndustrial>
-			<GW_ComponentRelic>2</GW_ComponentRelic>
-			<Plasteel>250</Plasteel>
-			<Steel>300</Steel>
-			<Gold>15</Gold>
-			<HP_Ceramite>120</HP_Ceramite>
-			<HP_Adamantium>100</HP_Adamantium>
-			<HP_Auramite>80</HP_Auramite>
-		</costList>
-		<costStuffCount>300</costStuffCount>
-		<stuffCategories Inherit="False">
-			<li>Imperial_Metals</li>
-		</stuffCategories>
 		<weaponTags>
 			<li>GW_TotE_Melee</li>
 		</weaponTags>
 		<tools>
 			<li>
-				<label>shaft</label>
+				<label>handle</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>9</power>
+				<power>16</power>
 				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.17</armorPenetration>
 			</li>
 			<li>
-				<label>head</label>
-				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
-				</capacities>
-				<power>70</power>
-				<cooldownTime>1.1</cooldownTime>
-				<armorPenetration>1.9</armorPenetration>
-			</li>
-			<li>
-				<label>point</label>
+				<label>blade</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>50</power>
+				<power>32</power>
 				<cooldownTime>2</cooldownTime>
-				<armorPenetration>0.9</armorPenetration>
+				<armorPenetration>0.57</armorPenetration>
+			</li>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>35</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.60</armorPenetration>
 			</li>
 		</tools>
-		<comps>
-			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
-				<weaponsToSwitch>
-					<li>
-						<label>Melee</label>
-						<description>Swap to Ranged</description>
-						<texPath>Things/Weapons/SpearBolter</texPath>
-						<weapon>GW_TotE_GuardianSpearR</weapon>
-					</li>
-				</weaponsToSwitch>
-			</li>
-		</comps>
 		<equippedAngleOffset>45</equippedAngleOffset>
 		<modExtensions>
 			<li Class="VFECore.ThingDefExtension">
@@ -107,6 +68,45 @@
 				</weaponDraftedDrawOffsets>
 			</li>
 		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_TOE_GuardianSpearMeleeBase">
+		<defName>GW_TotE_GuardianSpear</defName>
+		<label>Guardian Spear</label>
+		<description>The traditional armament of the Adeptus Custodes, the Guardian Spear is a “combi-weapon” - a combination of two weapons in one. The golden spear's head is coated in a disruptive power field, allowing it to pierce through heavy armor, while the integrated Bolt Caster lays down heavy fire on more distant enemies. \n\nMany combi-weapons exist in the Imperium of Man. For example, the basic “Combi-bolter”, often seen in the Great Crusade and Horus Heresy eras, was simply two bolters attached side-to-side. Unlike the later Storm Bolters, they were only attached together later, not in the first place.</description>
+		<graphicData>
+			<texPath>Things/Weapons/SpearBolter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<drawSize>1.45</drawSize>
+		</graphicData>
+		<statBases>
+			<WorkToMake>34000</WorkToMake>
+			<Mass>8.5</Mass>
+		</statBases>
+		<costList>
+			<ComponentSpacer>23</ComponentSpacer>
+			<ComponentIndustrial>40</ComponentIndustrial>
+			<GW_ComponentRelic>2</GW_ComponentRelic>
+			<Plasteel>250</Plasteel>
+			<Steel>300</Steel>
+			<Gold>15</Gold>
+			<HP_Ceramite>120</HP_Ceramite>
+			<HP_Adamantium>100</HP_Adamantium>
+			<HP_Auramite>80</HP_Auramite>
+		</costList>
+		<comps>
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+				<weaponsToSwitch>
+					<li>
+						<label>Melee</label>
+						<description>Swap to Ranged</description>
+						<texPath>Things/Weapons/SpearBolter</texPath>
+						<weapon>GW_TotE_GuardianSpearR</weapon>
+					</li>
+				</weaponsToSwitch>
+			</li>
+		</comps>
 	</ThingDef>
 	<!-- Guardian Spear Bolter -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
@@ -148,7 +148,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>GW_TotE_GuardianSpearProjectile</defaultProjectile>
+				<defaultProjectile>GW_TOE_GuardianSpearBolterProjectile</defaultProjectile>
 				<range>40</range>
 				<soundCast>Talon_Bolt_Gun_Sound</soundCast>
 				<burstShotCount>5</burstShotCount>
@@ -189,8 +189,9 @@
 			</li>
 		</comps>
 	</ThingDef>
+
 	<ThingDef ParentName="BaseBullet">
-		<defName>GW_TotE_GuardianSpearProjectile</defName>
+		<defName>GW_TOE_GuardianSpearBolterProjectile</defName>
 		<label>Guardian Spear bolt</label>
 		<graphicData>
 			<texPath>Things/Projectiles/BoltPistol_Proj</texPath>
@@ -205,8 +206,9 @@
 			<speed>32</speed>
 		</projectile>
 	</ThingDef>
+	
 	<!-- Adrathic Spear [Melee] -->
-	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
+	<ThingDef ParentName="GW_TOE_GuardianSpearMeleeBase">
 		<defName>GW_TotE_AdrathicSpear</defName>
 		<label>Adrathic Spear</label>
 		<description>A variant on the traditional Guardian Spear, the Adrasite Spear combines the same power spear with an adrathic weapon - a gun that fires a disintegrating beam to destroy targets at the molecular level. \n\nAdrathic weapons are a relic of the Dark Age of Technology. When the Emperor unified Terra, long before the Imperium came to be, He had all Adrathic Weapons given to Him on pain of death. Such is their power that only the Adeptus Custodes have wielded them since, and neither the ancient Mechanicum or the Adeptus Mechanicus were granted access to their secrets.</description>
@@ -216,16 +218,6 @@
 			<shaderType>Cutout</shaderType>
 			<drawSize>1.45</drawSize>
 		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>18</Crafting>
-			</skillRequirements>
-			<displayPriority>445</displayPriority>
-			<recipeUsers Inherit="false">
-				<li>GW_SM_TalonOfTheEmperor_WeaponBench</li>
-			</recipeUsers>
-		</recipeMaker>
 		<statBases>
 			<WorkToMake>34000</WorkToMake>
 			<Mass>8.5</Mass>
@@ -241,42 +233,6 @@
 			<HP_Adamantium>150</HP_Adamantium>
 			<HP_Auramite>120</HP_Auramite>
 		</costList>
-		<costStuffCount>500</costStuffCount>
-		<stuffCategories>
-			<li>Imperial_Metals</li>
-		</stuffCategories>
-		<weaponTags>
-			<li>GW_TotE_Melee</li>
-		</weaponTags>
-		<tools>
-			<li>
-				<label>shaft</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>head</label>
-				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
-				</capacities>
-				<power>70</power>
-				<cooldownTime>1.1</cooldownTime>
-				<armorPenetration>1.9</armorPenetration>
-			</li>
-			<li>
-				<label>point</label>
-				<capacities>
-					<li>Cut</li>
-				</capacities>
-				<power>50</power>
-				<cooldownTime>2</cooldownTime>
-				<armorPenetration>0.9</armorPenetration>
-			</li>
-		</tools>
 		<comps>
 			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
 				<weaponsToSwitch>
@@ -289,29 +245,6 @@
 				</weaponsToSwitch>
 			</li>
 		</comps>
-		<equippedAngleOffset>45</equippedAngleOffset>
-		<modExtensions>
-			<li Class="VFECore.ThingDefExtension">
-				<weaponDraftedDrawOffsets>
-					<north>
-						<drawOffset>(0.3, 0, 0.36)</drawOffset>
-						<angleOffset>-143</angleOffset>
-					</north>
-					<east>
-						<drawOffset>(0.15, 0, 0.42)</drawOffset>
-						<angleOffset>-122</angleOffset>
-					</east>
-					<south>
-						<drawOffset>(-0.40, 0, 0.47)</drawOffset>
-						<angleOffset>-143</angleOffset>
-					</south>
-					<west>
-						<drawOffset>(-0.15, 0, 0.42)</drawOffset>
-						<angleOffset>122</angleOffset>
-					</west>
-				</weaponDraftedDrawOffsets>
-			</li>
-		</modExtensions>
 	</ThingDef>
 	<!-- Adrathic Spear Bolter -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
@@ -407,7 +340,7 @@
 		</projectile>
 	</ThingDef>
 	<!-- Melta Spear [Melee] -->
-	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
+	<ThingDef ParentName="GW_TOE_GuardianSpearMeleeBase">
 		<defName>GW_TotE_MeltaSpear</defName>
 		<label>Pyrithite Spear</label>
 		<description>A combi-weapon, consisting of a disruptive power field around the spear’s head and an integrated melta beam, which fires a blast of energy from a nuclear fusion reaction. The end result is a weapon well-suited to close combat, making a mockery of any armor the enemy possesses. \n\nA wise Space Marine once likened the Adeptus Custodes to lone wolves, compared to the Adeptus Astartes being a pack of war dogs. While the combat prowess of a Custodian far exceeds any single Space Marine, their only flaw is fighting as individuals rather than as a unit - in other words, a lack of real teamwork.</description>
@@ -416,16 +349,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.45</drawSize>
 		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>18</Crafting>
-			</skillRequirements>
-			<displayPriority>445</displayPriority>
-			<recipeUsers Inherit="false">
-				<li>GW_SM_TalonOfTheEmperor_WeaponBench</li>
-			</recipeUsers>
-		</recipeMaker>
 		<statBases>
 			<WorkToMake>34000</WorkToMake>
 			<Mass>8.5</Mass>
@@ -441,42 +364,6 @@
 			<HP_Adamantium>120</HP_Adamantium>
 			<HP_Auramite>100</HP_Auramite>
 		</costList>
-		<costStuffCount>400</costStuffCount>
-		<stuffCategories Inherit="False">
-			<li>Imperial_Metals</li>
-		</stuffCategories>
-		<weaponTags>
-			<li>GW_TotE_Melee</li>
-		</weaponTags>
-		<tools>
-			<li>
-				<label>shaft</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>head</label>
-				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
-				</capacities>
-				<power>70</power>
-				<cooldownTime>1.1</cooldownTime>
-				<armorPenetration>1.9</armorPenetration>
-			</li>
-			<li>
-				<label>point</label>
-				<capacities>
-					<li>Cut</li>
-				</capacities>
-				<power>50</power>
-				<cooldownTime>2</cooldownTime>
-				<armorPenetration>0.9</armorPenetration>
-			</li>
-		</tools>
 		<comps>
 			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
 				<weaponsToSwitch>
@@ -489,29 +376,6 @@
 				</weaponsToSwitch>
 			</li>
 		</comps>
-		<equippedAngleOffset>45</equippedAngleOffset>
-		<modExtensions>
-			<li Class="VFECore.ThingDefExtension">
-				<weaponDraftedDrawOffsets>
-					<north>
-						<drawOffset>(0.3, 0, 0.36)</drawOffset>
-						<angleOffset>-143</angleOffset>
-					</north>
-					<east>
-						<drawOffset>(0.15, 0, 0.42)</drawOffset>
-						<angleOffset>-122</angleOffset>
-					</east>
-					<south>
-						<drawOffset>(-0.40, 0, 0.47)</drawOffset>
-						<angleOffset>-143</angleOffset>
-					</south>
-					<west>
-						<drawOffset>(-0.15, 0, 0.42)</drawOffset>
-						<angleOffset>122</angleOffset>
-					</west>
-				</weaponDraftedDrawOffsets>
-			</li>
-		</modExtensions>
 	</ThingDef>
 	<!-- Melta Spear Bolter -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
