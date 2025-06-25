@@ -70,6 +70,19 @@
 		</modExtensions>
 	</ThingDef>
 
+	<!-- Guardian Spear Ranged Base -->
+	<ThingDef Name="GW_TOE_GuardianSpearRangedBase" ParentName="GW_TotE_BaseMakeableGun">
+		<relicChance>0</relicChance>
+		<recipeMaker Inherit="False" />
+		<weaponTags>
+			<li>GW_TotE_Ranged</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Ranged</li>
+		</weaponClasses>
+		<equippedAngleOffset>35</equippedAngleOffset>
+	</ThingDef>
+
 	<ThingDef ParentName="GW_TOE_GuardianSpearMeleeBase">
 		<defName>GW_TotE_GuardianSpear</defName>
 		<label>Guardian Spear</label>
@@ -109,7 +122,7 @@
 		</comps>
 	</ThingDef>
 	<!-- Guardian Spear Bolter -->
-	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
+	<ThingDef ParentName="GW_TOE_GuardianSpearRangedBase">
 		<defName>GW_TotE_GuardianSpearR</defName>
 		<label>Guardian Spear (ranged)</label>
 		<description>The traditional armament of the Adeptus Custodes, the Guardian Spear is a “combi-weapon” - a combination of two weapons in one. The golden spear's head is coated in a disruptive power field, allowing it to pierce through heavy armor, while the integrated Bolt Caster lays down heavy fire on more distant enemies. \n\nMany combi-weapons exist in the Imperium of Man. For example, the basic “Combi-bolter”, often seen in the Great Crusade and Horus Heresy eras, was simply two bolters attached side-to-side. Unlike the later Storm Bolters, they were only attached together later, not in the first place.</description>
@@ -130,20 +143,6 @@
 			<RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
 		</statBases>
 		<recipeMaker Inherit="False" />
-		<costList>
-			<Steel>999</Steel>
-		</costList>
-		<costStuffCount>60</costStuffCount>
-		<stuffCategories>
-			<li>Imperial_Metals</li>
-		</stuffCategories>
-		<weaponTags>
-			<li>GW_TotE_Ranged</li>
-		</weaponTags>
-		<weaponClasses>
-			<li>Ranged</li>
-		</weaponClasses>
-		<equippedAngleOffset>35</equippedAngleOffset>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
@@ -158,24 +157,6 @@
 				<warmupTime>0.5</warmupTime>
 			</li>
 		</verbs>
-		<tools>
-			<li>
-				<label>shaft</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>16</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>point</label>
-				<capacities>
-					<li>Stab</li>
-				</capacities>
-				<power>16</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-		</tools>
 		<comps>
 			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
 				<weaponsToSwitch>
