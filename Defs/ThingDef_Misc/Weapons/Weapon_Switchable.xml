@@ -91,7 +91,7 @@
 			<texPath>Things/Weapons/SpearBolter</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<drawSize>1.45</drawSize>
+			<drawSize>2.4</drawSize>
 		</graphicData>
 		<statBases>
 			<WorkToMake>34000</WorkToMake>
@@ -130,7 +130,7 @@
 			<texPath>Things/Weapons/SpearBolter</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<drawSize>1.45</drawSize>
+			<drawSize>2.4</drawSize>
 		</graphicData>
 		<relicChance>0</relicChance>
 		<statBases>
@@ -197,7 +197,7 @@
 			<texPath>Things/Weapons/SpearAdrathic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<drawSize>1.45</drawSize>
+			<drawSize>2.4</drawSize>
 		</graphicData>
 		<statBases>
 			<WorkToMake>34000</WorkToMake>
@@ -228,14 +228,14 @@
 		</comps>
 	</ThingDef>
 	<!-- Adrathic Spear Bolter -->
-	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
+	<ThingDef ParentName="GW_TOE_GuardianSpearRangedBase">
 		<defName>GW_TotE_AdrathicSpearR</defName>
 		<label>Adrathic Spear (ranged)</label>
 		<description>A variant on the traditional Guardian Spear, the Adrasite Spear combines the same power spear with an adrathic weapon - a gun that fires a disintegrating beam to destroy targets at the molecular level. \n\nAdrathic weapons are a relic of the Dark Age of Technology. When the Emperor unified Terra, long before the Imperium came to be, He had all Adrathic Weapons given to Him on pain of death. Such is their power that only the Adeptus Custodes have wielded them since, and neither the ancient Mechanicum or the Adeptus Mechanicus were granted access to their secrets.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SpearAdrathic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.45</drawSize>
+			<drawSize>2.4</drawSize>
 		</graphicData>
 		<relicChance>0</relicChance>
 		<statBases>
@@ -251,18 +251,6 @@
 		<costList>
 			<Steel>999</Steel>
 		</costList>
-		<costStuffCount>60</costStuffCount>
-		<stuffCategories Inherit="False">
-			<li>Imperial_Metals</li>
-		</stuffCategories>
-		<weaponTags>
-			<li>GW_TotE_Ranged</li>
-		</weaponTags>
-		<weaponClasses>
-			<li>Ranged</li>
-		</weaponClasses>
-		<equippedAngleOffset>35</equippedAngleOffset>
-		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
@@ -274,24 +262,6 @@
 				<warmupTime>1</warmupTime>
 			</li>
 		</verbs>
-		<tools>
-			<li>
-				<label>shaft</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>16</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>point</label>
-				<capacities>
-					<li>Stab</li>
-				</capacities>
-				<power>16</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-		</tools>
 		<comps>
 			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
 				<weaponsToSwitch>
@@ -328,7 +298,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/SpearMelta</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.45</drawSize>
+			<drawSize>2.4</drawSize>
 		</graphicData>
 		<statBases>
 			<WorkToMake>34000</WorkToMake>
@@ -358,15 +328,16 @@
 			</li>
 		</comps>
 	</ThingDef>
+
 	<!-- Melta Spear Bolter -->
-	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
+	<ThingDef ParentName="GW_TOE_GuardianSpearRangedBase">
 		<defName>GW_TotE_MeltaSpearR</defName>
 		<label>Pyrithite Spear (ranged)</label>
 		<description>A combi-weapon, consisting of a disruptive power field around the spear’s head and an integrated melta beam, which fires a blast of energy from a nuclear fusion reaction. The end result is a weapon well-suited to close combat, making a mockery of any armor the enemy possesses. \n\nA wise Space Marine once likened the Adeptus Custodes to lone wolves, compared to the Adeptus Astartes being a pack of war dogs. While the combat prowess of a Custodian far exceeds any single Space Marine, their only flaw is fighting as individuals rather than as a unit - in other words, a lack of real teamwork.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SpearMelta</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.45</drawSize>
+			<drawSize>2.4</drawSize>
 		</graphicData>
 		<relicChance>0</relicChance>
 		<statBases>
@@ -382,13 +353,6 @@
 		<costList>
 			<Steel>999</Steel>
 		</costList>
-		<weaponTags>
-			<li>GW_TotE_Ranged</li>
-		</weaponTags>
-		<weaponClasses>
-			<li>Ranged</li>
-		</weaponClasses>
-		<equippedAngleOffset>35</equippedAngleOffset>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
@@ -401,24 +365,6 @@
 				<warmupTime>0.2</warmupTime>
 			</li>
 		</verbs>
-		<tools>
-			<li>
-				<label>shaft</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>16</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>point</label>
-				<capacities>
-					<li>Stab</li>
-				</capacities>
-				<power>16</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-		</tools>
 		<comps>
 			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
 				<weaponsToSwitch>
@@ -432,6 +378,7 @@
 			</li>
 		</comps>
 	</ThingDef>
+
 	<ThingDef ParentName="BaseBullet">
 		<defName>GW_TotE_MeltaSpearProjectile</defName>
 		<label>Pyrithite Spear beam</label>
@@ -448,6 +395,7 @@
 			<speed>28</speed>
 		</projectile>
 	</ThingDef>
+	
 	<!-- Axes -->
 	<!-- Castellan Axe [Melee] -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
@@ -457,7 +405,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/CastellanAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.5</drawSize>
+			<drawSize>2.3</drawSize>
 		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>GW_TotE_Castellan</researchPrerequisite>
@@ -572,7 +520,7 @@
 			<texPath>Things/Weapons/CastellanAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<drawSize>1.45</drawSize>
+			<drawSize>2.3</drawSize>
 		</graphicData>
 		<relicChance>0</relicChance>
 		<statBases>
@@ -666,7 +614,7 @@
 			<texPath>Things/Weapons/WatchersAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<drawSize>1.5</drawSize>
+			<drawSize>2.3</drawSize>
 		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>GW_TotE_Castellan</researchPrerequisite>
@@ -779,7 +727,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/WatchersAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.45</drawSize>
+			<drawSize>2.3</drawSize>
 		</graphicData>
 		<relicChance>0</relicChance>
 		<statBases>
