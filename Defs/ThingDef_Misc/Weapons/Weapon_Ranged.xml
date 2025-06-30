@@ -28,45 +28,47 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.45</drawSize>
 		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>GW_TotE_Allarus</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>18</Crafting>
-			</skillRequirements>
-			<recipeUsers Inherit="false">
-				<li>GW_SM_TalonOfTheEmperor_WeaponBench</li>
-			</recipeUsers>
-			<displayPriority>445</displayPriority>
-		</recipeMaker>
+		<tradeability>Buyable</tradeability>
+		<!-- <recipeMaker> -->
+			<!-- <researchPrerequisite>GW_TotE_Allarus</researchPrerequisite> -->
+			<!-- <skillRequirements> -->
+				<!-- <Crafting>18</Crafting> -->
+			<!-- </skillRequirements> -->
+			<!-- <recipeUsers Inherit="false"> -->
+				<!-- <li>GW_SM_TalonOfTheEmperor_WeaponBench</li> -->
+			<!-- </recipeUsers> -->
+			<!-- <displayPriority>445</displayPriority> -->
+		<!-- </recipeMaker> -->
 		<statBases>
 			<WorkToMake>55000</WorkToMake>
-			<Mass>7.5</Mass>
-			<AccuracyTouch>0.90</AccuracyTouch>
-			<AccuracyShort>0.75</AccuracyShort>
-			<AccuracyMedium>0.35</AccuracyMedium>
-			<AccuracyLong>0.20</AccuracyLong>
-			<RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+			<MarketValue>4000</MarketValue>
+			<Mass>3.5</Mass>
+			<AccuracyTouch>0.80</AccuracyTouch>
+			<AccuracyShort>0.70</AccuracyShort>
+			<AccuracyMedium>0.45</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
+			<RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
 		</statBases>
-		<costList>
-			<ComponentSpacer>9</ComponentSpacer>
-			<ComponentIndustrial>27</ComponentIndustrial>
-			<GW_ComponentRelic>4</GW_ComponentRelic>
-			<Plasteel>300</Plasteel>
-			<Steel>500</Steel>
-			<Uranium>100</Uranium>
-			<HP_Ceramite>200</HP_Ceramite>
-			<HP_Adamantium>150</HP_Adamantium>
-			<HP_Auramite>60</HP_Auramite>
-		</costList>
+		<!-- <costList> -->
+			<!-- <ComponentSpacer>9</ComponentSpacer> -->
+			<!-- <ComponentIndustrial>27</ComponentIndustrial> -->
+			<!-- <GW_ComponentRelic>4</GW_ComponentRelic> -->
+			<!-- <Plasteel>300</Plasteel> -->
+			<!-- <Steel>500</Steel> -->
+			<!-- <Uranium>100</Uranium> -->
+			<!-- <HP_Ceramite>200</HP_Ceramite> -->
+			<!-- <HP_Adamantium>150</HP_Adamantium> -->
+			<!-- <HP_Auramite>60</HP_Auramite> -->
+		<!-- </costList> -->
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_TotE_Adrathic_Destructor_Bullet</defaultProjectile>
-				<warmupTime>3</warmupTime>
-				<range>20</range>
-				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-				<burstShotCount>1</burstShotCount>
+				<warmupTime>1.5</warmupTime>
+				<range>27</range>
+				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+				<burstShotCount>2</burstShotCount>
 				<soundCast>Talon_Pulse_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>20</muzzleFlashScale>
@@ -81,7 +83,8 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>9</power>
+				<power>13</power>
+				<armorPenetration>0.13</armorPenetration>
 				<cooldownTime>2</cooldownTime>
 			</li>
 			<li>
@@ -90,7 +93,8 @@
 					<li>Blunt</li>
 					<li>Poke</li>
 				</capacities>
-				<power>9</power>
+				<power>13</power>
+				<armorPenetration>0.13</armorPenetration>
 				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
@@ -169,34 +173,35 @@
 			</recipeUsers>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>34000</WorkToMake>
-			<Mass>4.5</Mass>
-			<AccuracyTouch>0.90</AccuracyTouch>
-			<AccuracyShort>0.85</AccuracyShort>
-			<AccuracyMedium>0.70</AccuracyMedium>
-			<AccuracyLong>0.60</AccuracyLong>
-			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+			<WorkToMake>90000</WorkToMake>
+			<Mass>6</Mass>
+			<MarketValue>2000</MarketValue>
+			<AccuracyTouch>0.55</AccuracyTouch>
+			<AccuracyShort>0.64</AccuracyShort>
+			<AccuracyMedium>0.55</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
-			<ComponentSpacer>13</ComponentSpacer>
-			<ComponentIndustrial>30</ComponentIndustrial>
-			<GW_ComponentRelic>2</GW_ComponentRelic>
-			<Plasteel>400</Plasteel>
-			<Steel>500</Steel>
-			<Uranium>150</Uranium>
-			<HP_Ceramite>200</HP_Ceramite>
-			<HP_Adamantium>150</HP_Adamantium>
-			<HP_Auramite>50</HP_Auramite>
+			<!-- <ComponentSpacer>13</ComponentSpacer> -->
+			<!-- <ComponentIndustrial>30</ComponentIndustrial> -->
+			<!-- <Plasteel>400</Plasteel> -->
+			<!-- <Steel>500</Steel> -->
+			<!-- <Uranium>150</Uranium> -->
+			<!-- <HP_Ceramite>200</HP_Ceramite> -->
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<HP_Adamantium>40</HP_Adamantium>
+			<HP_Auramite>15</HP_Auramite>
 		</costList>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_TotE_Bolt_Caliver_Bullet</defaultProjectile>
-				<warmupTime>2.5</warmupTime>
+				<warmupTime>1.5</warmupTime>
 				<forcedMissRadius>0.1</forcedMissRadius>
-				<range>55</range>
-				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+				<range>33</range>
+				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
 				<burstShotCount>3</burstShotCount>
 				<soundCast>Talon_Bolt_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
@@ -212,7 +217,8 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>9</power>
+				<power>13</power>
+				<armorPenetration>0.13</armorPenetration>
 				<cooldownTime>2</cooldownTime>
 			</li>
 			<li>
@@ -221,7 +227,8 @@
 					<li>Blunt</li>
 					<li>Poke</li>
 				</capacities>
-				<power>9</power>
+				<power>13</power>
+				<armorPenetration>0.13</armorPenetration>
 				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
@@ -265,24 +272,26 @@
 			</recipeUsers>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>34000</WorkToMake>
-			<Mass>5.5</Mass>
-			<AccuracyTouch>0.40</AccuracyTouch>
-			<AccuracyShort>0.48</AccuracyShort>
-			<AccuracyMedium>0.35</AccuracyMedium>
-			<AccuracyLong>0.26</AccuracyLong>
+			<WorkToMake>95000</WorkToMake>
+			<MarketValue>400</MarketValue>
+			<Mass>4</Mass>
+			<AccuracyTouch>0.80</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.30</AccuracyMedium>
+			<AccuracyLong>0.10</AccuracyLong>
 			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
-			<ComponentSpacer>20</ComponentSpacer>
-			<ComponentIndustrial>45</ComponentIndustrial>
-			<GW_ComponentRelic>2</GW_ComponentRelic>
-			<Plasteel>450</Plasteel>
-			<Steel>550</Steel>
-			<Uranium>300</Uranium>
-			<HP_Ceramite>300</HP_Ceramite>
-			<HP_Adamantium>100</HP_Adamantium>
-			<HP_Auramite>70</HP_Auramite>
+			<HP_Adamantium>60</HP_Adamantium>
+			<HP_Auramite>20</HP_Auramite>
+			<Chemfuel>20</Chemfuel>
+			<ComponentSpacer>4</ComponentSpacer>
+			<!-- <ComponentIndustrial>45</ComponentIndustrial> -->
+			<!-- <GW_ComponentRelic>2</GW_ComponentRelic> -->
+			<!-- <Plasteel>450</Plasteel> -->
+			<!-- <Steel>550</Steel> -->
+			<!-- <Uranium>300</Uranium> -->
+			<!-- <HP_Ceramite>300</HP_Ceramite> -->
 		</costList>
 		<verbs>
 			<li>
@@ -290,9 +299,10 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_Bullet_Flamer</defaultProjectile>
 				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
-				<warmupTime>3.5</warmupTime>
-				<range>40</range>
-				<burstShotCount>5</burstShotCount>
+				<forcedMissRadius>1.5</forcedMissRadius>
+				<warmupTime>1</warmupTime>
+				<range>10</range>
+				<burstShotCount>1</burstShotCount>
 				<soundCast>GW_SM_Flamer_Sound</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>14</muzzleFlashScale>
@@ -310,7 +320,8 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>9</power>
+				<power>13</power>
+				<armorPenetration>0.13</armorPenetration>
 				<cooldownTime>2</cooldownTime>
 			</li>
 			<li>
@@ -319,7 +330,8 @@
 					<li>Blunt</li>
 					<li>Poke</li>
 				</capacities>
-				<power>9</power>
+				<power>13</power>
+				<armorPenetration>0.13</armorPenetration>
 				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
@@ -344,24 +356,25 @@
 			<displayPriority>445</displayPriority>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>45000</WorkToMake>
+			<WorkToMake>85000</WorkToMake>
+			<MarketValue>2200</MarketValue>
 			<Mass>3</Mass>
-			<AccuracyTouch>0.95</AccuracyTouch>
-			<AccuracyShort>0.90</AccuracyShort>
-			<AccuracyMedium>0.85</AccuracyMedium>
-			<AccuracyLong>0.80</AccuracyLong>
-			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+			<AccuracyTouch>0.80</AccuracyTouch>
+			<AccuracyShort>0.70</AccuracyShort>
+			<AccuracyMedium>0.45</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
-			<ComponentSpacer>13</ComponentSpacer>
-			<ComponentIndustrial>30</ComponentIndustrial>
-			<GW_ComponentRelic>2</GW_ComponentRelic>
-			<Plasteel>400</Plasteel>
-			<Steel>500</Steel>
-			<Uranium>150</Uranium>
-			<HP_Ceramite>200</HP_Ceramite>
-			<HP_Adamantium>150</HP_Adamantium>
-			<HP_Auramite>50</HP_Auramite>
+			<!-- <ComponentSpacer>13</ComponentSpacer> -->
+			<!-- <ComponentIndustrial>30</ComponentIndustrial> -->
+			<HP_Adamantium>35</HP_Adamantium>
+			<HP_Auramite>10</HP_Auramite>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<!-- <Plasteel>400</Plasteel> -->
+			<!-- <Steel>500</Steel> -->
+			<!-- <Uranium>150</Uranium> -->
+			<!-- <HP_Ceramite>200</HP_Ceramite> -->
 		</costList>
 		<verbs>
 			<li>
@@ -369,7 +382,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_TotE_Bolt_Kinetic_Destructor</defaultProjectile>
 				<warmupTime>2</warmupTime>
-				<range>40</range>
+				<range>31</range>
 				<!-- <forcedMissRadius>1.9</forcedMissRadius> -->
 				<burstShotCount>1</burstShotCount>
 				<soundCast>Talon_Bolt_Gun_Sound</soundCast>
@@ -386,7 +399,8 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>9</power>
+				<power>13</power>
+				<armorPenetration>0.13</armorPenetration>
 				<cooldownTime>2</cooldownTime>
 			</li>
 			<li>
@@ -395,7 +409,8 @@
 					<li>Blunt</li>
 					<li>Poke</li>
 				</capacities>
-				<power>9</power>
+				<power>13</power>
+				<armorPenetration>0.13</armorPenetration>
 				<cooldownTime>2</cooldownTime>
 			</li>
 			<li>
@@ -403,7 +418,8 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>16</power>
+				<power>13</power>
+				<armorPenetration>0.13</armorPenetration>
 				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
@@ -446,34 +462,35 @@
 			</recipeUsers>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>34000</WorkToMake>
-			<Mass>4.5</Mass>
-			<AccuracyTouch>0.90</AccuracyTouch>
-			<AccuracyShort>0.85</AccuracyShort>
-			<AccuracyMedium>0.70</AccuracyMedium>
-			<AccuracyLong>0.60</AccuracyLong>
-			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+			<WorkToMake>80000</WorkToMake>
+			<Mass>6</Mass>
+			<MarketValue>1200</MarketValue>
+			<AccuracyTouch>0.55</AccuracyTouch>
+			<AccuracyShort>0.64</AccuracyShort>
+			<AccuracyMedium>0.55</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
-			<ComponentSpacer>13</ComponentSpacer>
-			<ComponentIndustrial>30</ComponentIndustrial>
-			<GW_ComponentRelic>2</GW_ComponentRelic>
-			<Plasteel>400</Plasteel>
-			<Steel>500</Steel>
-			<Uranium>150</Uranium>
-			<HP_Ceramite>200</HP_Ceramite>
-			<HP_Adamantium>150</HP_Adamantium>
-			<HP_Auramite>50</HP_Auramite>
+			<!-- <ComponentSpacer>13</ComponentSpacer> -->
+			<!-- <ComponentIndustrial>30</ComponentIndustrial> -->
+			<!-- <Plasteel>400</Plasteel> -->
+			<!-- <Steel>500</Steel> -->
+			<!-- <Uranium>150</Uranium> -->
+			<!-- <HP_Ceramite>200</HP_Ceramite> -->
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<HP_Adamantium>45</HP_Adamantium>
+			<HP_Auramite>13</HP_Auramite>
 		</costList>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_TotE_SOSBolter_Bullet</defaultProjectile>
-				<warmupTime>2.5</warmupTime>
+				<warmupTime>2.1</warmupTime>
 				<forcedMissRadius>0.1</forcedMissRadius>
-				<range>55</range>
-				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+				<range>28</range>
+				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
 				<burstShotCount>3</burstShotCount>
 				<soundCast>Talon_Bolt_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
@@ -489,7 +506,8 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>9</power>
+				<power>13</power>
+				<armorPenetration>0.13</armorPenetration>
 				<cooldownTime>2</cooldownTime>
 			</li>
 			<li>
@@ -498,7 +516,8 @@
 					<li>Blunt</li>
 					<li>Poke</li>
 				</capacities>
-				<power>9</power>
+				<power>13</power>
+				<armorPenetration>0.13</armorPenetration>
 				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>

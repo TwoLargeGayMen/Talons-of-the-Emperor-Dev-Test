@@ -39,24 +39,28 @@
 		</graphicData>
 		<uiIconScale>1.0</uiIconScale>				
 		<statBases>
-			<WorkToMake>20000</WorkToMake>
-			<Mass>1.85</Mass>
+			<WorkToMake>60000</WorkToMake>
+			<Mass>2</Mass>
+			<MarketValue>2200</MarketValue>
 		</statBases>
+		<equippedStatOffsets>
+			<MeleeHitChance>1</MeleeHitChance>
+		</equippedStatOffsets>
 		<equippedAngleOffset>-30</equippedAngleOffset>
 		<stuffCategories>
 			<li>Imperial_Metals</li>
 		</stuffCategories>
 		<costStuffCount>200</costStuffCount>
 		<costList>
-			<ComponentSpacer>15</ComponentSpacer>
-			<ComponentIndustrial>30</ComponentIndustrial>
-			<GW_ComponentRelic>1</GW_ComponentRelic>
-			<Plasteel>100</Plasteel>
-			<Steel>230</Steel>
-			<Gold>10</Gold>
-			<HP_Ceramite>100</HP_Ceramite>
-			<HP_Adamantium>90</HP_Adamantium>
+			<!-- <ComponentSpacer>15</ComponentSpacer> -->
+			<!-- <ComponentIndustrial>30</ComponentIndustrial> -->
+			<!-- <Plasteel>100</Plasteel> -->
+			<!-- <Steel>230</Steel> -->
+			<!-- <Gold>10</Gold> -->
+			<!-- <HP_Ceramite>100</HP_Ceramite> -->
+			<HP_Adamantium>45</HP_Adamantium>
 			<HP_Auramite>20</HP_Auramite>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
 		</costList>
 		<tools>
 			<li>
@@ -64,27 +68,27 @@
 			<capacities>
 				<li>Blunt</li>
 			</capacities>
-			<power>9</power>
-			<cooldownTime>2.5</cooldownTime>
-			<armorPenetration>0.6</armorPenetration>
+			<power>16</power>
+			<cooldownTime>1.7</cooldownTime>
+			<armorPenetration>0.17</armorPenetration>
 			</li>
 			<li>
 			<label>point</label>
 			<capacities>
 				<li>Stab</li>
 			</capacities>
-			<power>40</power>
+			<power>25</power>
 			<cooldownTime>1.0</cooldownTime>
-			<armorPenetration>1.1</armorPenetration>
+			<armorPenetration>0.5</armorPenetration>
 			</li>
 			<li>
 			<label>edge</label>
 			<capacities>
 				<li>Cut</li>
 			</capacities>
-			<power>25</power>
-			<cooldownTime>2</cooldownTime>
-			<armorPenetration>0.8</armorPenetration>
+			<power>20</power>
+			<cooldownTime>1.8</cooldownTime>
+			<armorPenetration>0.3</armorPenetration>
 			</li>
 		</tools>		
 	</ThingDef>
@@ -101,20 +105,14 @@
 		</graphicData>
 		<uiIconScale>1.0</uiIconScale>				
 		<statBases>
-			<WorkToMake>25000</WorkToMake>
-			<Mass>5.85</Mass>
+			<WorkToMake>65000</WorkToMake>
+			<Mass>2.5</Mass>
 		</statBases>
 		<equippedAngleOffset>-40</equippedAngleOffset>
 		<costList>
-			<ComponentSpacer>20</ComponentSpacer>
-			<ComponentIndustrial>45</ComponentIndustrial>
+			<HP_Adamantium>65</HP_Adamantium>
+			<HP_Auramite>20</HP_Auramite>
 			<GW_ComponentRelic>2</GW_ComponentRelic>
-			<Plasteel>250</Plasteel>
-			<Steel>435</Steel>
-			<Gold>15</Gold>
-			<HP_Ceramite>120</HP_Ceramite>
-			<HP_Adamantium>100</HP_Adamantium>
-			<HP_Auramite>50</HP_Auramite>
 		</costList>
 		<stuffCategories>
 			<li>Imperial_Metals</li>
@@ -126,27 +124,27 @@
 			<capacities>
 				<li>Blunt</li>
 			</capacities>
-			<power>10</power>
-			<cooldownTime>2.5</cooldownTime>
-			<armorPenetration>0.5</armorPenetration>
+			<power>16</power>
+			<armorPenetration>0.17</armorPenetration>
+			<cooldownTime>1.7</cooldownTime>
 			</li>
 			<li>
 			<label>point</label>
 			<capacities>
 				<li>Stab</li>
 			</capacities>
-			<power>35</power>
-			<cooldownTime>2.5</cooldownTime>
-			<armorPenetration>1.1</armorPenetration>
+			<power>25</power>
+			<cooldownTime>1.8</cooldownTime>
+			<armorPenetration>0.75</armorPenetration>
 			</li>
 			<li>
 			<label>edge</label>
 			<capacities>
 				<li>Cut</li>
 			</capacities>
-			<power>50</power>
-			<cooldownTime>1.5</cooldownTime>
-			<armorPenetration>1.6</armorPenetration>
+			<power>70</power>
+			<cooldownTime>1.8</cooldownTime>
+			<armorPenetration>0.3</armorPenetration>
 			</li>
 		</tools>		
 	</ThingDef>
@@ -172,18 +170,14 @@
 			</recipeUsers>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>34000</WorkToMake>
-			<Mass>8.5</Mass>
+			<WorkToMake>80000</WorkToMake>
+			<Mass>6</Mass>
+			<MarketValue>3000</MarketValue>
 		</statBases>
 		<costList>
-			<ComponentSpacer>10</ComponentSpacer>
-			<ComponentIndustrial>20</ComponentIndustrial>
+			<HP_Adamantium>25</HP_Adamantium>
+			<HP_Auramite>10</HP_Auramite>
 			<GW_ComponentRelic>1</GW_ComponentRelic>
-			<Plasteel>200</Plasteel>
-			<Steel>450</Steel>
-			<HP_Ceramite>100</HP_Ceramite>
-			<HP_Adamantium>60</HP_Adamantium>
-			<HP_Auramite>20</HP_Auramite>
 		</costList>
 		<stuffCategories>
 			<li>Imperial_Metals</li>
@@ -199,9 +193,9 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>10</power>
+				<power>16</power>
 				<cooldownTime>2</cooldownTime>
-				<armorPenetration>0.7</armorPenetration>
+				<armorPenetration>0.17</armorPenetration>
 			</li>
 			<li>
 				<label>head</label>
@@ -210,8 +204,8 @@
 					<li>Poke</li>
 				</capacities>
 				<power>20</power>
-				<cooldownTime>2</cooldownTime>
-				<armorPenetration>0.5</armorPenetration>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.10</armorPenetration>
 			</li>
 		</tools>
 		<equippedAngleOffset>45</equippedAngleOffset>
@@ -256,20 +250,15 @@
 		</graphicData>
 		<uiIconScale>1.2</uiIconScale>			
 		<statBases>
-			<WorkToMake>40000</WorkToMake>
-			<Mass>13</Mass>
+			<WorkToMake>70000</WorkToMake>
+			<Mass>4</Mass>
+			<MarketValue>3000</MarketValue>
 		</statBases>
 		<equippedAngleOffset>-30</equippedAngleOffset>
 		<costList>
-			<ComponentSpacer>22</ComponentSpacer>
-			<ComponentIndustrial>48</ComponentIndustrial>
+			<HP_Adamantium>68</HP_Adamantium>
+			<HP_Auramite>30</HP_Auramite>
 			<GW_ComponentRelic>2</GW_ComponentRelic>
-			<Plasteel>200</Plasteel>
-			<Steel>500</Steel>
-			<Gold>25</Gold>
-			<HP_Ceramite>100</HP_Ceramite>
-			<HP_Adamantium>120</HP_Adamantium>
-			<HP_Auramite>55</HP_Auramite>
 		</costList>
 		<stuffCategories>
 			<li>Imperial_Metals</li>
@@ -281,9 +270,9 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>20</power>
+				<power>16</power>
 				<cooldownTime>2</cooldownTime>
-				<armorPenetration>1.0</armorPenetration>
+				<armorPenetration>0.17</armorPenetration>
 			</li>
 			<li>
 				<label>point</label>
@@ -291,17 +280,17 @@
 					<li>Stab</li>
 				</capacities>
 				<power>40</power>
-				<cooldownTime>2</cooldownTime>
-				<armorPenetration>1.8</armorPenetration>
+				<cooldownTime>2.1</cooldownTime>
+				<armorPenetration>0.7</armorPenetration>
 			</li>
 			<li>
 				<label>edge</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
-				<power>70</power>
+				<power>65</power>
 				<cooldownTime>2.5</cooldownTime>
-				<armorPenetration>2.0</armorPenetration>
+				<armorPenetration>0.65</armorPenetration>
 			</li>
 		</tools>
 	</ThingDef>
@@ -321,20 +310,15 @@
 		</graphicData>
 		<uiIconScale>1.0</uiIconScale>				
 		<statBases>
-			<WorkToMake>25000</WorkToMake>
-			<Mass>5.85</Mass>
+			<WorkToMake>65000</WorkToMake>
+			<Mass>3</Mass>
+			<MarketValue>2000</MarketValue>
 		</statBases>
 		<equippedAngleOffset>-40</equippedAngleOffset>
 		<costList>
-			<ComponentSpacer>20</ComponentSpacer>
-			<ComponentIndustrial>45</ComponentIndustrial>
-			<GW_ComponentRelic>2</GW_ComponentRelic>
-			<Plasteel>250</Plasteel>
-			<Steel>435</Steel>
-			<Gold>15</Gold>
-			<HP_Ceramite>120</HP_Ceramite>
-			<HP_Adamantium>100</HP_Adamantium>
-			<HP_Auramite>50</HP_Auramite>
+			<HP_Adamantium>55</HP_Adamantium>
+			<HP_Auramite>30</HP_Auramite>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
 		</costList>
 		<stuffCategories>
 			<li>Imperial_Metals</li>
@@ -346,9 +330,9 @@
 			<capacities>
 				<li>Blunt</li>
 			</capacities>
-			<power>10</power>
-			<cooldownTime>2.5</cooldownTime>
-			<armorPenetration>0.5</armorPenetration>
+			<power>16</power>
+			<cooldownTime>2.0</cooldownTime>
+			<armorPenetration>0.17</armorPenetration>
 			</li>
 			<li>
 			<label>point</label>
@@ -356,17 +340,17 @@
 				<li>Stab</li>
 			</capacities>
 			<power>35</power>
-			<cooldownTime>2.5</cooldownTime>
-			<armorPenetration>1.1</armorPenetration>
+			<cooldownTime>2.0</cooldownTime>
+			<armorPenetration>0.75</armorPenetration>
 			</li>
 			<li>
 			<label>edge</label>
 			<capacities>
 				<li>Cut</li>
 			</capacities>
-			<power>50</power>
-			<cooldownTime>1.5</cooldownTime>
-			<armorPenetration>1.6</armorPenetration>
+			<power>70</power>
+			<cooldownTime>2</cooldownTime>
+			<armorPenetration>0.7</armorPenetration>
 			</li>
 		</tools>		
 		<modExtensions>
