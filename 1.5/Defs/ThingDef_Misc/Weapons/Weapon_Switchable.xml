@@ -1,0 +1,1022 @@
+<Defs>
+	<!-- Spear -->
+	<!-- Guardian Spear [Melee] -->
+	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
+		<defName>GW_TotE_GuardianSpear</defName>
+		<label>Guardian Spear</label>
+		<description>The traditional armament of the Adeptus Custodes, the Guardian Spear is a “combi-weapon” - a combination of two weapons in one. The golden spear's head is coated in a disruptive power field, allowing it to pierce through heavy armor, while the integrated Bolt Caster lays down heavy fire on more distant enemies. \n\nMany combi-weapons exist in the Imperium of Man. For example, the basic “Combi-bolter”, often seen in the Great Crusade and Horus Heresy eras, was simply two bolters attached side-to-side. Unlike the later Storm Bolters, they were only attached together later, not in the first place.</description>
+		<graphicData>
+			<texPath>Things/Weapons/SpearBolter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<drawSize>1.45</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>18</Crafting>
+			</skillRequirements>
+			<displayPriority>445</displayPriority>
+			<recipeUsers Inherit="false">
+				<li>GW_SM_TalonOfTheEmperor_WeaponBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>34000</WorkToMake>
+			<Mass>8.5</Mass>
+		</statBases>
+		<costList>
+			<ComponentSpacer>23</ComponentSpacer>
+			<ComponentIndustrial>40</ComponentIndustrial>
+			<GW_ComponentRelic>2</GW_ComponentRelic>
+			<Plasteel>250</Plasteel>
+			<Steel>300</Steel>
+			<Gold>15</Gold>
+			<HP_Ceramite>120</HP_Ceramite>
+			<HP_Adamantium>100</HP_Adamantium>
+			<HP_Auramite>80</HP_Auramite>
+		</costList>
+		<costStuffCount>300</costStuffCount>
+		<stuffCategories Inherit="False">
+			<li>Imperial_Metals</li>
+		</stuffCategories>
+		<weaponTags>
+			<li>GW_TotE_Melee</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>shaft</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>70</power>
+				<cooldownTime>1.1</cooldownTime>
+				<armorPenetration>1.9</armorPenetration>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>50</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.9</armorPenetration>
+			</li>
+		</tools>
+		<comps>
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+				<weaponsToSwitch>
+					<li>
+						<label>Melee</label>
+						<description>Swap to Ranged</description>
+						<texPath>Things/Weapons/SpearBolter</texPath>
+						<weapon>GW_TotE_GuardianSpearR</weapon>
+					</li>
+				</weaponsToSwitch>
+			</li>
+		</comps>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<drawOffset>(0.3, 0, 0.36)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</north>
+					<east>
+						<drawOffset>(0.15, 0, 0.42)</drawOffset>
+						<angleOffset>-122</angleOffset>
+					</east>
+					<south>
+						<drawOffset>(-0.40, 0, 0.47)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</south>
+					<west>
+						<drawOffset>(-0.15, 0, 0.42)</drawOffset>
+						<angleOffset>122</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<!-- Guardian Spear Bolter -->
+	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
+		<defName>GW_TotE_GuardianSpearR</defName>
+		<label>Guardian Spear (ranged)</label>
+		<description>The traditional armament of the Adeptus Custodes, the Guardian Spear is a “combi-weapon” - a combination of two weapons in one. The golden spear's head is coated in a disruptive power field, allowing it to pierce through heavy armor, while the integrated Bolt Caster lays down heavy fire on more distant enemies. \n\nMany combi-weapons exist in the Imperium of Man. For example, the basic “Combi-bolter”, often seen in the Great Crusade and Horus Heresy eras, was simply two bolters attached side-to-side. Unlike the later Storm Bolters, they were only attached together later, not in the first place.</description>
+		<graphicData>
+			<texPath>Things/Weapons/SpearBolter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<drawSize>1.45</drawSize>
+		</graphicData>
+		<relicChance>0</relicChance>
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+			<Mass>4</Mass>
+			<AccuracyTouch>0.70</AccuracyTouch>
+			<AccuracyShort>0.85</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>0.6</AccuracyLong>
+			<RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
+		</statBases>
+		<recipeMaker Inherit="False" />
+		<costList>
+			<Steel>999</Steel>
+		</costList>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Imperial_Metals</li>
+		</stuffCategories>
+		<weaponTags>
+			<li>GW_TotE_Ranged</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Ranged</li>
+		</weaponClasses>
+		<equippedAngleOffset>35</equippedAngleOffset>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GW_TotE_GuardianSpearProjectile</defaultProjectile>
+				<range>40</range>
+				<soundCast>Talon_Bolt_Gun_Sound</soundCast>
+				<burstShotCount>5</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<warmupTime>0.5</warmupTime>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>shaft</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<comps>
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+				<weaponsToSwitch>
+					<li>
+						<label>Ranged</label>
+						<description>Swap to Melee</description>
+						<texPath>Things/Weapons/SpearBolter</texPath>
+						<weapon>GW_TotE_GuardianSpear</weapon>
+					</li>
+				</weaponsToSwitch>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>GW_TotE_GuardianSpearProjectile</defName>
+		<label>Guardian Spear bolt</label>
+		<graphicData>
+			<texPath>Projectiles/AM_BoltPistol_Proj</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.8</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>RangedStab</damageDef>
+			<damageAmountBase>40</damageAmountBase>
+			<stoppingPower>2</stoppingPower>
+			<armorPenetrationBase>0.80</armorPenetrationBase>
+			<speed>32</speed>
+		</projectile>
+	</ThingDef>
+	<!-- Adrathic Spear [Melee] -->
+	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
+		<defName>GW_TotE_AdrathicSpear</defName>
+		<label>Adrathic Spear</label>
+		<description>A variant on the traditional Guardian Spear, the Adrasite Spear combines the same power spear with an adrathic weapon - a gun that fires a disintegrating beam to destroy targets at the molecular level. \n\nAdrathic weapons are a relic of the Dark Age of Technology. When the Emperor unified Terra, long before the Imperium came to be, He had all Adrathic Weapons given to Him on pain of death. Such is their power that only the Adeptus Custodes have wielded them since, and neither the ancient Mechanicum or the Adeptus Mechanicus were granted access to their secrets.</description>
+		<graphicData>
+			<texPath>Things/Weapons/SpearAdrathic</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<drawSize>1.45</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>18</Crafting>
+			</skillRequirements>
+			<displayPriority>445</displayPriority>
+			<recipeUsers Inherit="false">
+				<li>GW_SM_TalonOfTheEmperor_WeaponBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>34000</WorkToMake>
+			<Mass>8.5</Mass>
+		</statBases>
+		<costList>
+			<ComponentSpacer>35</ComponentSpacer>
+			<ComponentIndustrial>60</ComponentIndustrial>
+			<GW_ComponentRelic>4</GW_ComponentRelic>
+			<Plasteel>350</Plasteel>
+			<Steel>400</Steel>
+			<Gold>20</Gold>
+			<HP_Ceramite>200</HP_Ceramite>
+			<HP_Adamantium>150</HP_Adamantium>
+			<HP_Auramite>120</HP_Auramite>
+		</costList>
+		<costStuffCount>500</costStuffCount>
+		<stuffCategories>
+			<li>Imperial_Metals</li>
+		</stuffCategories>
+		<weaponTags>
+			<li>GW_TotE_Melee</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>shaft</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>70</power>
+				<cooldownTime>1.1</cooldownTime>
+				<armorPenetration>1.9</armorPenetration>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>50</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.9</armorPenetration>
+			</li>
+		</tools>
+		<comps>
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+				<weaponsToSwitch>
+					<li>
+						<label>Melee</label>
+						<description>Swap to Ranged</description>
+						<texPath>Things/Weapons/SpearAdrathic</texPath>
+						<weapon>GW_TotE_AdrathicSpearR</weapon>
+					</li>
+				</weaponsToSwitch>
+			</li>
+		</comps>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<drawOffset>(0.3, 0, 0.36)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</north>
+					<east>
+						<drawOffset>(0.15, 0, 0.42)</drawOffset>
+						<angleOffset>-122</angleOffset>
+					</east>
+					<south>
+						<drawOffset>(-0.40, 0, 0.47)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</south>
+					<west>
+						<drawOffset>(-0.15, 0, 0.42)</drawOffset>
+						<angleOffset>122</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<!-- Adrathic Spear Bolter -->
+	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
+		<defName>GW_TotE_AdrathicSpearR</defName>
+		<label>Adrathic Spear (ranged)</label>
+		<description>A variant on the traditional Guardian Spear, the Adrasite Spear combines the same power spear with an adrathic weapon - a gun that fires a disintegrating beam to destroy targets at the molecular level. \n\nAdrathic weapons are a relic of the Dark Age of Technology. When the Emperor unified Terra, long before the Imperium came to be, He had all Adrathic Weapons given to Him on pain of death. Such is their power that only the Adeptus Custodes have wielded them since, and neither the ancient Mechanicum or the Adeptus Mechanicus were granted access to their secrets.</description>
+		<graphicData>
+			<texPath>Things/Weapons/SpearAdrathic</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.45</drawSize>
+		</graphicData>
+		<relicChance>0</relicChance>
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+			<Mass>4</Mass>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.7</AccuracyMedium>
+			<AccuracyLong>0.7</AccuracyLong>
+			<RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
+		</statBases>
+		<recipeMaker Inherit="False" />
+		<costList>
+			<Steel>999</Steel>
+		</costList>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories Inherit="False">
+			<li>Imperial_Metals</li>
+		</stuffCategories>
+		<weaponTags>
+			<li>GW_TotE_Ranged</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Ranged</li>
+		</weaponClasses>
+		<equippedAngleOffset>35</equippedAngleOffset>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GW_TotE_Adrathic_Destructor_Bullet</defaultProjectile>
+				<range>30</range>
+				<soundCast>Talon_Pulse_Gun_Sound</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<warmupTime>1</warmupTime>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>shaft</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<comps>
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+				<weaponsToSwitch>
+					<li>
+						<label>Ranged</label>
+						<description>Swap to Melee</description>
+						<texPath>Things/Weapons/SpearAdrathic</texPath>
+						<weapon>GW_TotE_AdrathicSpear</weapon>
+					</li>
+				</weaponsToSwitch>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>GW_TotE_AdrathicSpearProjectile</defName>
+		<label>Adrathic Spear beam</label>
+		<graphicData>
+			<texPath>Projectiles/Plasma_Projectile</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>RangedStab</damageDef>
+			<damageAmountBase>90</damageAmountBase>
+			<stoppingPower>6</stoppingPower>
+			<armorPenetrationBase>2.20</armorPenetrationBase>
+			<speed>60</speed>
+		</projectile>
+	</ThingDef>
+	<!-- Melta Spear [Melee] -->
+	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
+		<defName>GW_TotE_MeltaSpear</defName>
+		<label>Pyrithite Spear</label>
+		<description>A combi-weapon, consisting of a disruptive power field around the spear’s head and an integrated melta beam, which fires a blast of energy from a nuclear fusion reaction. The end result is a weapon well-suited to close combat, making a mockery of any armor the enemy possesses. \n\nA wise Space Marine once likened the Adeptus Custodes to lone wolves, compared to the Adeptus Astartes being a pack of war dogs. While the combat prowess of a Custodian far exceeds any single Space Marine, their only flaw is fighting as individuals rather than as a unit - in other words, a lack of real teamwork.</description>
+		<graphicData>
+			<texPath>Things/Weapons/SpearMelta</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.45</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>18</Crafting>
+			</skillRequirements>
+			<displayPriority>445</displayPriority>
+			<recipeUsers Inherit="false">
+				<li>GW_SM_TalonOfTheEmperor_WeaponBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>34000</WorkToMake>
+			<Mass>8.5</Mass>
+		</statBases>
+		<costList>
+			<ComponentSpacer>23</ComponentSpacer>
+			<ComponentIndustrial>50</ComponentIndustrial>
+			<GW_ComponentRelic>3</GW_ComponentRelic>
+			<Plasteel>350</Plasteel>
+			<Steel>400</Steel>
+			<Gold>15</Gold>
+			<HP_Ceramite>200</HP_Ceramite>
+			<HP_Adamantium>120</HP_Adamantium>
+			<HP_Auramite>100</HP_Auramite>
+		</costList>
+		<costStuffCount>400</costStuffCount>
+		<stuffCategories Inherit="False">
+			<li>Imperial_Metals</li>
+		</stuffCategories>
+		<weaponTags>
+			<li>GW_TotE_Melee</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>shaft</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>70</power>
+				<cooldownTime>1.1</cooldownTime>
+				<armorPenetration>1.9</armorPenetration>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>50</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.9</armorPenetration>
+			</li>
+		</tools>
+		<comps>
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+				<weaponsToSwitch>
+					<li>
+						<label>Melee</label>
+						<description>Swap to Ranged</description>
+						<texPath>Things/Weapons/SpearMelta</texPath>
+						<weapon>GW_TotE_MeltaSpearR</weapon>
+					</li>
+				</weaponsToSwitch>
+			</li>
+		</comps>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<drawOffset>(0.3, 0, 0.36)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</north>
+					<east>
+						<drawOffset>(0.15, 0, 0.42)</drawOffset>
+						<angleOffset>-122</angleOffset>
+					</east>
+					<south>
+						<drawOffset>(-0.40, 0, 0.47)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</south>
+					<west>
+						<drawOffset>(-0.15, 0, 0.42)</drawOffset>
+						<angleOffset>122</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<!-- Melta Spear Bolter -->
+	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
+		<defName>GW_TotE_MeltaSpearR</defName>
+		<label>Pyrithite Spear (ranged)</label>
+		<description>A combi-weapon, consisting of a disruptive power field around the spear’s head and an integrated melta beam, which fires a blast of energy from a nuclear fusion reaction. The end result is a weapon well-suited to close combat, making a mockery of any armor the enemy possesses. \n\nA wise Space Marine once likened the Adeptus Custodes to lone wolves, compared to the Adeptus Astartes being a pack of war dogs. While the combat prowess of a Custodian far exceeds any single Space Marine, their only flaw is fighting as individuals rather than as a unit - in other words, a lack of real teamwork.</description>
+		<graphicData>
+			<texPath>Things/Weapons/SpearMelta</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.45</drawSize>
+		</graphicData>
+		<relicChance>0</relicChance>
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+			<Mass>4</Mass>
+			<AccuracyTouch>0.80</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.7</AccuracyMedium>
+			<AccuracyLong>0.6</AccuracyLong>
+			<RangedWeapon_Cooldown>1.90</RangedWeapon_Cooldown>
+		</statBases>
+		<recipeMaker Inherit="False" />
+		<costList>
+			<Steel>999</Steel>
+		</costList>
+		<weaponTags>
+			<li>GW_TotE_Ranged</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Ranged</li>
+		</weaponClasses>
+		<equippedAngleOffset>35</equippedAngleOffset>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GW_TotE_MeltaSpearProjectile</defaultProjectile>
+				<range>15</range>
+				<soundCast>Shot_SniperRifle</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>16</muzzleFlashScale>
+				<warmupTime>0.2</warmupTime>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>shaft</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<comps>
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+				<weaponsToSwitch>
+					<li>
+						<label>Ranged</label>
+						<description>Swap to Melee</description>
+						<texPath>Things/Weapons/SpearMelta</texPath>
+						<weapon>GW_TotE_MeltaSpear</weapon>
+					</li>
+				</weaponsToSwitch>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>GW_TotE_MeltaSpearProjectile</defName>
+		<label>Pyrithite Spear beam</label>
+		<graphicData>
+			<texPath>Projectiles/Melta_Projectile</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>RangedStab</damageDef>
+			<damageAmountBase>55</damageAmountBase>
+			<stoppingPower>6</stoppingPower>
+			<armorPenetrationBase>2.10</armorPenetrationBase>
+			<speed>28</speed>
+		</projectile>
+	</ThingDef>
+	<!-- Axes -->
+	<!-- Castellan Axe [Melee] -->
+	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
+		<defName>GW_TotE_CastellanAxe</defName>
+		<label>Castellan Axe</label>
+		<description>A large, two-handed axe used by the Adeptus Custodes. As well as cleaving through the enemy with the power field-enhanced blade, the Bolt Caster integrated into the weapon also makes short work of enemies out of reach.\n\nIt is heresy for the Adeptus Administratum to record the Custodians ever losing a battle. Officially, any warzone that the Custodians are deployed in is deemed an Imperial victory, even before they have arrived.</description>
+		<graphicData>
+			<texPath>Things/Weapons/CastellanAxe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_Castellan</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>18</Crafting>
+			</skillRequirements>
+			<displayPriority>445</displayPriority>
+			<recipeUsers Inherit="false">
+				<li>GW_SM_TalonOfTheEmperor_WeaponBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>34000</WorkToMake>
+			<Mass>8.5</Mass>
+		</statBases>
+		<costList>
+			<ComponentSpacer>50</ComponentSpacer>
+			<ComponentIndustrial>75</ComponentIndustrial>
+			<GW_ComponentRelic>5</GW_ComponentRelic>
+			<Plasteel>550</Plasteel>
+			<Steel>800</Steel>
+			<Gold>40</Gold>
+			<HP_Ceramite>400</HP_Ceramite>
+			<HP_Adamantium>200</HP_Adamantium>
+			<HP_Auramite>180</HP_Auramite>
+		</costList>
+		<costStuffCount>650</costStuffCount>
+		<stuffCategories Inherit="False">
+			<li>Imperial_Metals</li>
+		</stuffCategories>
+		<weaponTags>
+			<li>GW_TotE_Melee</li>
+			<li>GW_TotE_Castellan</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>40</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.7</armorPenetration>
+			</li>
+			<li>
+				<label>cheek</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>45</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>1.0</armorPenetration>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>70</power>
+				<cooldownTime>1</cooldownTime>
+				<armorPenetration>1.7</armorPenetration>
+			</li>
+		</tools>
+		<comps>
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+				<weaponsToSwitch>
+					<li>
+						<label>Melee</label>
+						<description>Swap to Ranged</description>
+						<texPath>Things/Weapons/CastellanAxe</texPath>
+						<weapon>GW_TotE_CastellanAxeR</weapon>
+					</li>
+				</weaponsToSwitch>
+			</li>
+			
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
+			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li>
+		</comps>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<drawOffset>(0.3, 0, 0.36)</drawOffset>
+						<angleOffset>-123</angleOffset>
+					</north>
+					<east>
+						<drawOffset>(0.15, 0, 0.42)</drawOffset>
+						<angleOffset>-112</angleOffset>
+					</east>
+					<south>
+						<drawOffset>(-0.40, 0, 0.47)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</south>
+					<west>
+						<drawOffset>(-0.15, 0, 0.42)</drawOffset>
+						<angleOffset>112</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<!-- Castellan Axe Bolter -->
+	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
+		<defName>GW_TotE_CastellanAxeR</defName>
+		<label>Castellan Axe (ranged)</label>
+		<description>A large, two-handed axe used by the Adeptus Custodes. As well as cleaving through the enemy with the power field-enhanced blade, the Bolt Caster integrated into the weapon also makes short work of enemies out of reach.\n\nIt is heresy for the Adeptus Administratum to record the Custodians ever losing a battle. Officially, any warzone that the Custodians are deployed in is deemed an Imperial victory, even before they have arrived.</description>
+		<graphicData>
+			<texPath>Things/Weapons/CastellanAxe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<drawSize>1.45</drawSize>
+		</graphicData>
+		<relicChance>0</relicChance>
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+			<Mass>4</Mass>
+			<AccuracyTouch>0.80</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.55</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
+		</statBases>
+		<recipeMaker Inherit="False" />
+		<costList>
+			<Steel>999</Steel>
+		</costList>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Imperial_Metals</li>
+		</stuffCategories>
+		<weaponTags>
+			<li>GW_TotE_Ranged</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Ranged</li>
+		</weaponClasses>
+		<equippedAngleOffset>35</equippedAngleOffset>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GW_TotE_CastellanAxeProjectile</defaultProjectile>
+				<range>40</range>
+				<burstShotCount>5</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<soundCast>Talon_Bolt_Gun_Sound</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>10</muzzleFlashScale>
+				<warmupTime>0.6</warmupTime>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>40</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.7</armorPenetration>
+			</li>
+		</tools>
+		<comps>
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+				<weaponsToSwitch>
+					<li>
+						<label>Ranged</label>
+						<description>Swap to Melee</description>
+						<texPath>Things/Weapons/CastellanAxe</texPath>
+						<weapon>GW_TotE_CastellanAxe</weapon>
+					</li>
+				</weaponsToSwitch>
+			</li>
+			
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
+			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>GW_TotE_CastellanAxeProjectile</defName>
+		<label>Castellan Axe bolt</label>
+		<graphicData>
+			<texPath>Projectiles/AM_BoltPistol_Proj</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>RangedStab</damageDef>
+			<damageAmountBase>40</damageAmountBase>
+			<stoppingPower>4</stoppingPower>
+			<armorPenetrationBase>2.50</armorPenetrationBase>
+			<speed>26</speed>
+		</projectile>
+	</ThingDef>
+	<!-- Watchers Axe [Melee] -->
+	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
+		<defName>GW_TotE_WatchersAxe</defName>
+		<label>Watcher's Axe</label>
+		<description>The Watcher's Axe is an ancient power axe, combined with a master-crafted boltgun named the “Eagle's Scream”. A unique version of the Castellan Axe, it crackles with golden lightning, and its swing is said to be so powerful that even a Chaos-empowered Dreadnought was once cleaved in twain with a single stroke. \n\nThe true Watcher’s Axe is wielded by Captain-General Trajann Valoris. This is a mere replica, but well-crafted enough that it holds great power of its own.</description>
+		<graphicData>
+			<texPath>Things/Weapons/WatchersAxe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_Castellan</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>20</Crafting>
+			</skillRequirements>
+			<displayPriority>445</displayPriority>
+			<recipeUsers Inherit="false">
+				<li>GW_SM_TalonOfTheEmperor_WeaponBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>34000</WorkToMake>
+			<Mass>12</Mass>
+		</statBases>
+		<costList>
+			<ComponentSpacer>70</ComponentSpacer>
+			<ComponentIndustrial>90</ComponentIndustrial>
+			<GW_ComponentRelic>7</GW_ComponentRelic>
+			<Plasteel>880</Plasteel>
+			<Steel>1100</Steel>
+			<Gold>80</Gold>
+			<HP_Ceramite>550</HP_Ceramite>
+			<HP_Adamantium>350</HP_Adamantium>
+			<HP_Auramite>300</HP_Auramite>
+		</costList>
+		<costStuffCount>730</costStuffCount>
+		<stuffCategories Inherit="False">
+			<li>Imperial_Metals</li>
+		</stuffCategories>
+		<weaponTags>
+			<li>GW_TotE_Melee</li>
+			<li>GW_TotE_Castellan</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>55</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.7</armorPenetration>
+			</li>
+			<li>
+				<label>axe cheek</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>60</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>1.0</armorPenetration>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>90</power>
+				<cooldownTime>1</cooldownTime>
+				<armorPenetration>1.7</armorPenetration>
+			</li>
+		</tools>
+		<comps>
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+				<weaponsToSwitch>
+					<li>
+						<label>Melee</label>
+						<description>Swap to Ranged</description>
+						<texPath>Things/Weapons/WatchersAxe</texPath>
+						<weapon>GW_TotE_WatchersAxeR</weapon>
+					</li>
+				</weaponsToSwitch>
+			</li>
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
+			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li>
+		</comps>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<drawOffset>(0.3, 0, 0.36)</drawOffset>
+						<angleOffset>-123</angleOffset>
+					</north>
+					<east>
+						<drawOffset>(0.15, 0, 0.42)</drawOffset>
+						<angleOffset>-112</angleOffset>
+					</east>
+					<south>
+						<drawOffset>(-0.40, 0, 0.47)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</south>
+					<west>
+						<drawOffset>(-0.15, 0, 0.42)</drawOffset>
+						<angleOffset>112</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<!-- Castellan Axe Bolter -->
+	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
+		<defName>GW_TotE_WatchersAxeR</defName>
+		<label>Watcher's Axe (ranged)</label>
+		<description>The Watcher's Axe is an ancient power axe, combined with a master-crafted boltgun named the “Eagle's Scream”. A unique version of the Castellan Axe, it crackles with golden lightning, and its swing is said to be so powerful that even a Chaos-empowered Dreadnought was once cleaved in twain with a single stroke. \n\nThe true Watcher’s Axe is wielded by Captain-General Trajann Valoris. This is a mere replica, but well-crafted enough that it holds great power of its own.</description>
+		<graphicData>
+			<texPath>Things/Weapons/WatchersAxe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.45</drawSize>
+		</graphicData>
+		<relicChance>0</relicChance>
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+			<Mass>4</Mass>
+			<AccuracyTouch>0.80</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.55</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
+		</statBases>
+		<recipeMaker Inherit="False" />
+		<costList>
+			<Steel>999</Steel>
+		</costList>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories Inherit="False">
+			<li>Imperial_Metals</li>
+		</stuffCategories>
+		<weaponTags>
+			<li>GW_TotE_Ranged</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Ranged</li>
+		</weaponClasses>
+		<equippedAngleOffset>35</equippedAngleOffset>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GW_TotE_WatchersAxeProjectile</defaultProjectile>
+				<range>15</range>
+				<burstShotCount>5</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<soundCast>Talon_Bolt_Gun_Sound</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>10</muzzleFlashScale>
+				<warmupTime>0.6</warmupTime>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>55</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.7</armorPenetration>
+			</li>
+		</tools>
+		<comps>
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+				<weaponsToSwitch>
+					<li>
+						<label>Ranged</label>
+						<description>Swap to Melee</description>
+						<texPath>Things/Weapons/WatchersAxe</texPath>
+						<weapon>GW_TotE_WatchersAxe</weapon>
+					</li>
+				</weaponsToSwitch>
+			</li>
+			
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
+			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>GW_TotE_WatchersAxeProjectile</defName>
+		<label>Watcher's Axe bolt</label>
+		<graphicData>
+			<texPath>Projectiles/AM_BoltPistol_Proj</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>RangedStab</damageDef>
+			<damageAmountBase>120</damageAmountBase>
+			<stoppingPower>6</stoppingPower>
+			<armorPenetrationBase>3</armorPenetrationBase>
+			<speed>30</speed>
+		</projectile>
+	</ThingDef>
+</Defs>
