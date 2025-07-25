@@ -175,7 +175,7 @@
 		<defName>GW_TOE_GuardianSpearBolterProjectile</defName>
 		<label>Guardian Spear bolt</label>
 		<graphicData>
-			<texPath>Things/Projectiles/BoltPistol_Proj</texPath>
+			<texPath>Projectiles/AM_BoltPistol_Proj</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.8</drawSize>
 		</graphicData>
@@ -484,7 +484,6 @@
 			<li Class="CompProperties_Biocodable">
 				<biocodeOnEquip>True</biocodeOnEquip>
 			</li>
-			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"/>
 		</comps>
 		<equippedAngleOffset>45</equippedAngleOffset>
 		<modExtensions>
@@ -586,14 +585,13 @@
 			<li Class="CompProperties_Biocodable">
 				<biocodeOnEquip>True</biocodeOnEquip>
 			</li>
-			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"/>
 		</comps>
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>GW_TotE_CastellanAxeProjectile</defName>
 		<label>Castellan Axe bolt</label>
 		<graphicData>
-			<texPath>Things/Projectiles/BoltPistol_Proj</texPath>
+			<texPath>Projectiles/AM_BoltPistol_Proj</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -633,7 +631,6 @@
 			<li Class="CompProperties_Biocodable">
 				<biocodeOnEquip>True</biocodeOnEquip>
 			</li>
-			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"/>
 		</comps>
 		<equippedAngleOffset>45</equippedAngleOffset>
 		<modExtensions>
@@ -734,14 +731,13 @@
 			<li Class="CompProperties_Biocodable">
 				<biocodeOnEquip>True</biocodeOnEquip>
 			</li>
-			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"/>
 		</comps>
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>GW_TotE_WatchersAxeProjectile</defName>
 		<label>Watcher's Axe bolt</label>
 		<graphicData>
-			<texPath>Things/Projectiles/BoltPistol_Proj</texPath>
+			<texPath>Projectiles/AM_BoltPistol_Proj</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>

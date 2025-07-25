@@ -65,6 +65,7 @@
 			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
 			<PawnBeauty>50</PawnBeauty>
+			<VacuumResistance MayRequire="ludeon.rimworld.odyssey">0.2</VacuumResistance>
 		</equippedStatOffsets>
 		<comps>
 			<li MayRequire="kentington.saveourship2">
@@ -327,7 +328,6 @@
 			<li Class="CompProperties_Biocodable">
 				<biocodeOnEquip>True</biocodeOnEquip>
 			</li>
-			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li>
         </comps>
 		<modExtensions>
 			<li Class="VEF.Apparels.ApparelExtension">

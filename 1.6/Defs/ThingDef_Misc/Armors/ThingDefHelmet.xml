@@ -20,6 +20,7 @@
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
 			<PawnBeauty>50</PawnBeauty>
+			<VacuumResistance MayRequire="ludeon.rimworld.odyssey">0.6</VacuumResistance>
 		</equippedStatOffsets>
 		<statBases>
 			<Flammability>0.0</Flammability>
@@ -279,7 +280,6 @@
 			<li Class="CompProperties_Biocodable">
 				<biocodeOnEquip>True</biocodeOnEquip>
 			</li>
-			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li>
 			<li MayRequire="kentington.saveourship2">
 				<compClass>SaveOurShip2.CompEVA</compClass>
 			</li>

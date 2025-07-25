@@ -305,7 +305,6 @@
 			<li Class="CompProperties_Biocodable">
 				<biocodeOnEquip>True</biocodeOnEquip>
 			</li>
-			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li>
 		</comps>
 	</ThingDef>
 	
