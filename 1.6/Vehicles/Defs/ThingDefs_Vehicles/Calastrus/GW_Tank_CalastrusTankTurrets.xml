@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-    <ThingDef ParentName="GW_LaserBullet" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+    <ThingDef ParentName="GW_LaserBullet">
         <defName>GW_Calastruslas</defName>
         <label>Accelerator Cannon shot</label>
         <description>The Arachnus Heavy Blaze Cannon, WIP</description>
-        <textures>
-            <li>Things/Projectiles/Las_Bolt</li>
-        </textures>
-        <seam>0</seam>
-        <causefireChance>0.1</causefireChance>
         <projectile>
             <damageDef>Burn</damageDef>
             <damageAmountBase>400</damageAmountBase>
@@ -34,7 +29,7 @@
 		<magazineCapacity>60</magazineCapacity>
 		<genericAmmo>true</genericAmmo>
 		
-		<hitFlags>IntendedTarget</hitFlags>
+		
 		
 		<autoSnapTargeting>false</autoSnapTargeting>
 		<rotationSpeed>2.95</rotationSpeed>
@@ -93,7 +88,7 @@
 		<magazineCapacity>200</magazineCapacity>
 		<chargePerAmmoCount>1</chargePerAmmoCount>
 		<genericAmmo>true</genericAmmo>
-		<hitFlags>IntendedTarget</hitFlags>
+		
 		<autoSnapTargeting>false</autoSnapTargeting>
 		<rotationSpeed>0.5</rotationSpeed>
 		<projectileOffset>0.0</projectileOffset>

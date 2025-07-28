@@ -19,7 +19,7 @@
 		<fillPercent>1</fillPercent>
 		<buildDef>GW_CalastrusTank_Blueprint</buildDef>
 		<size>(9, 11)</size>
-		<vehicleMovementPermissions>DriverNeeded</vehicleMovementPermissions>
+		<!-- <vehicleMovementPermissions>DriverNeeded</vehicleMovementPermissions> -->
 		<vehicleCategory>Combat</vehicleCategory>
 		<techLevel>Spacer</techLevel>
 		<vehicleType>Land</vehicleType>
@@ -29,7 +29,7 @@
 			<ArmorRating_Heat>0.4</ArmorRating_Heat>
 			<Flammability>0</Flammability>
 			<MarketValue>15000</MarketValue>
-			<Mass>590</Mass>
+			<!-- <Mass>590</Mass> -->
 		</statBases>
 		<vehicleStats>
 			<Mass>590</Mass>
@@ -51,7 +51,7 @@
 			<baseBodySize>4.0</baseBodySize>
 		</race>
 		<properties>
-			<customSnowCategoryTicks AssignDefaults="1" />
+			
 			<customRoadCosts AssignDefaults="0.33" />
 			<winterSpeedMultiplier>0.75</winterSpeedMultiplier>
 			<worldSpeedMultiplier>1.25</worldSpeedMultiplier>

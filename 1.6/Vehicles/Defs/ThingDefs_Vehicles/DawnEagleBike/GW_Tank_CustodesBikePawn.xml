@@ -67,7 +67,7 @@
 			<baseBodySize>4.0</baseBodySize>
 		</race>
 		<properties>
-			<customSnowCategoryTicks AssignDefaults="1" />
+			
 			<customRoadCosts AssignDefaults="0.33" />
 			<winterSpeedMultiplier>0.95</winterSpeedMultiplier>
 			<worldSpeedMultiplier>2</worldSpeedMultiplier>

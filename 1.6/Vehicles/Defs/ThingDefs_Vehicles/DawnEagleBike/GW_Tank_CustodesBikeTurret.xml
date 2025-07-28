@@ -16,7 +16,7 @@
 		<magazineCapacity>600</magazineCapacity>
 		<chargePerAmmoCount>2</chargePerAmmoCount>
 		<genericAmmo>true</genericAmmo>
-		<hitFlags>IntendedTarget</hitFlags>
+		
 		<autoSnapTargeting>false</autoSnapTargeting>
 		<projectileOffset>1.0</projectileOffset>
 		<maxRange>28.9</maxRange>

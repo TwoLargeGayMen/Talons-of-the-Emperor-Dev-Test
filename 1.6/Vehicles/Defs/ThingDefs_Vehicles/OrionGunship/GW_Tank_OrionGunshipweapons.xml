@@ -3,15 +3,10 @@
 <Defs>
 	<!--===== this def can be deleted safely if you do not need a slot for a new projectile =====-->
 
-    <ThingDef ParentName="GW_LaserBullet" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+    <ThingDef ParentName="GW_LaserBullet">
         <defName>GW_Orionlas</defName>
         <label>Heavy Blaze Cannon shot</label>
         <description>The Arachnus Heavy Blaze Cannon, WIP</description>
-        <textures>
-            <li>Things/Projectiles/Las_Bolt</li>
-        </textures>
-        <seam>0</seam>
-        <causefireChance>0.1</causefireChance>
         <projectile>
             <damageDef>Burn</damageDef>
             <damageAmountBase>200</damageAmountBase>
@@ -38,7 +33,7 @@
 		<magazineCapacity>40</magazineCapacity>
 		<genericAmmo>true</genericAmmo>
 		
-		<hitFlags>IntendedTarget</hitFlags>
+		
 		
 		<autoSnapTargeting>false</autoSnapTargeting>
 		<rotationSpeed>2.95</rotationSpeed>
@@ -106,7 +101,7 @@
 			<chargePerAmmoCount>1</chargePerAmmoCount>
 			<genericAmmo>true</genericAmmo>
 
-			<hitFlags>IntendedTarget</hitFlags>
+			
 
 			<autoSnapTargeting>false</autoSnapTargeting>
 
