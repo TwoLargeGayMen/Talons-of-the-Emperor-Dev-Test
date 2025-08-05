@@ -13,6 +13,7 @@
 				<li>GW_SM_TalonOfTheEmperor_WeaponBench</li>
 			</recipeUsers>
 		</recipeMaker>
+		<stuffCategories Inherit="false" IsNull="True"/>		
 		<costList>
 			<GW_ComponentRelic>1</GW_ComponentRelic>
 			<HP_Adamantium>60</HP_Adamantium>
@@ -106,7 +107,7 @@
 			<texPath>Things/Weapons/SpearBolter</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<drawSize>2.4</drawSize>
+			<drawSize>1.8</drawSize>
 		</graphicData>
 		<comps>
 			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
@@ -130,7 +131,7 @@
 			<texPath>Things/Weapons/SpearBolter</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<drawSize>2.4</drawSize>
+			<drawSize>1.8</drawSize>
 		</graphicData>
 		<relicChance>0</relicChance>
 		<statBases>
@@ -197,7 +198,7 @@
 			<texPath>Things/Weapons/SpearAdrathic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<drawSize>2.4</drawSize>
+			<drawSize>1.8</drawSize>
 		</graphicData>
 		<comps>
 			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
@@ -220,7 +221,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/SpearAdrathic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>2.4</drawSize>
+			<drawSize>1.8</drawSize>
 		</graphicData>
 		<relicChance>0</relicChance>
 		<statBases>
@@ -289,7 +290,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/SpearMelta</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>2.4</drawSize>
+			<drawSize>1.8</drawSize>
 		</graphicData>
 		<comps>
 			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
@@ -313,7 +314,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/SpearMelta</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>2.4</drawSize>
+			<drawSize>1.8</drawSize>
 		</graphicData>
 		<relicChance>0</relicChance>
 		<statBases>
@@ -387,6 +388,7 @@
 				<li>GW_SM_TalonOfTheEmperor_WeaponBench</li>
 			</recipeUsers>
 		</recipeMaker>
+		<stuffCategories Inherit="False" IsNull="True" />
 		<costList>
 			<GW_ComponentRelic>3</GW_ComponentRelic>
 			<HP_Adamantium>70</HP_Adamantium>
@@ -463,12 +465,8 @@
 		<graphicData>
 			<texPath>Things/Weapons/CastellanAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>2.3</drawSize>
+			<drawSize>1.8</drawSize>
 		</graphicData>
-		<costStuffCount>650</costStuffCount>
-		<stuffCategories Inherit="False">
-			<li>Imperial_Metals</li>
-		</stuffCategories>
 		<comps>
 			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
 				<weaponsToSwitch>
@@ -518,7 +516,7 @@
 			<texPath>Things/Weapons/CastellanAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<drawSize>2.3</drawSize>
+			<drawSize>1.8</drawSize>
 		</graphicData>
 		<relicChance>0</relicChance>
 		<statBases>
@@ -534,10 +532,6 @@
 		<costList>
 			<Steel>999</Steel>
 		</costList>
-		<costStuffCount>60</costStuffCount>
-		<stuffCategories>
-			<li>Imperial_Metals</li>
-		</stuffCategories>
 		<weaponTags>
 			<li>GW_TotE_Ranged</li>
 		</weaponTags>
@@ -611,12 +605,8 @@
 			<texPath>Things/Weapons/WatchersAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<drawSize>2.3</drawSize>
+			<drawSize>1.8</drawSize>
 		</graphicData>
-		<costStuffCount>730</costStuffCount>
-		<stuffCategories Inherit="False">
-			<li>Imperial_Metals</li>
-		</stuffCategories>
 		<comps>
 			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
 				<weaponsToSwitch>
@@ -664,7 +654,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/WatchersAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>2.3</drawSize>
+			<drawSize>1.8</drawSize>
 		</graphicData>
 		<relicChance>0</relicChance>
 		<statBases>
@@ -680,10 +670,6 @@
 		<costList>
 			<Steel>999</Steel>
 		</costList>
-		<costStuffCount>60</costStuffCount>
-		<stuffCategories Inherit="False">
-			<li>Imperial_Metals</li>
-		</stuffCategories>
 		<weaponTags>
 			<li>GW_TotE_Ranged</li>
 		</weaponTags>
