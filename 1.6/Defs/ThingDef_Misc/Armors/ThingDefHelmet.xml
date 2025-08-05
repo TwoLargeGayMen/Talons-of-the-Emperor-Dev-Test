@@ -663,7 +663,7 @@
 				<scale>0.9</scale>
 			</drawData>
 		</apparel>
-		<equippedStatOffsets>
+		<equippedStatOffsets Inherit="False">
 			<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
 			<ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
 			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>

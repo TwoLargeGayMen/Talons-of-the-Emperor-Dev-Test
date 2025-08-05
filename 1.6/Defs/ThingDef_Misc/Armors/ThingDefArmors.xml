@@ -368,7 +368,9 @@
 			<HP_Adamantium>35</HP_Adamantium>
 			<HP_Auramite>7</HP_Auramite>
 		</costList>
-		<equippedStatOffsets>
+		<equippedStatOffsets Inherit="false">			
+			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
+			<PawnBeauty>50</PawnBeauty>
 			<MoveSpeed>0.15</MoveSpeed>
 		</equippedStatOffsets>
 		<apparel>
