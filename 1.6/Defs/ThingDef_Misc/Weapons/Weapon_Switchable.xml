@@ -13,6 +13,7 @@
 				<li>GW_SM_TalonOfTheEmperor_WeaponBench</li>
 			</recipeUsers>
 		</recipeMaker>
+		<uiIconScale>1</uiIconScale>
 		<stuffCategories Inherit="false" IsNull="True"/>		
 		<costList>
 			<GW_ComponentRelic>1</GW_ComponentRelic>
@@ -388,6 +389,7 @@
 				<li>GW_SM_TalonOfTheEmperor_WeaponBench</li>
 			</recipeUsers>
 		</recipeMaker>
+		<uiIconScale>1</uiIconScale>		
 		<stuffCategories Inherit="False" IsNull="True" />
 		<costList>
 			<GW_ComponentRelic>3</GW_ComponentRelic>
