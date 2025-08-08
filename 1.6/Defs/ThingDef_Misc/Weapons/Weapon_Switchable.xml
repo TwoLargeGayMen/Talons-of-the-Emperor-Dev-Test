@@ -331,18 +331,23 @@
 		<costList>
 			<Steel>999</Steel>
 		</costList>
-		<verbs>
+		<verbs>			
 			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>GW_TotE_MeltaSpearProjectile</defaultProjectile>
-				<forcedMissRadius>0.1</forcedMissRadius>
-				<range>16</range>
-				<soundCast>Shot_SniperRifle</soundCast>
-				<soundCastTail>GunTail_Heavy</soundCastTail>
-				<muzzleFlashScale>16</muzzleFlashScale>
-				<warmupTime>1.8</warmupTime>
-			</li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GW_TotE_MeltaSpearProjectile</defaultProjectile>
+                <warmupTime>1.8</warmupTime>
+                <range>16</range>
+                <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+				<!-- <forcedMissRadius>1</forcedMissRadius> -->
+                <burstShotCount>1</burstShotCount>
+                <soundCast>Shot_SniperRifle</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>12</muzzleFlashScale>		
+                <targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+            </li>
 		</verbs>
 		<comps>
 			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
@@ -358,24 +363,71 @@
 		</comps>
 	</ThingDef>
 
+	<!-- <ThingDef ParentName="GW_LaserBullet"> -->
+		<!-- <defName>GW_TotE_MeltaSpearProjectile</defName> -->
+		<!-- <label>Pyrithite Spear beam</label> -->
+		<!-- <graphicData> -->
+			<!-- <texPath>Things/Projectiles/Las_Bolt</texPath> -->
+			<!-- <graphicClass>Graphic_Single</graphicClass> -->
+			<!-- <drawSize>1.4</drawSize> -->
+		<!-- </graphicData> -->
+		<!-- <projectile> -->
+            <!-- <damageDef>Burn</damageDef> -->
+            <!-- <damageAmountBase>20</damageAmountBase> -->
+            <!-- <armorPenetrationBase>1.2</armorPenetrationBase> -->
+            <!-- <stoppingPower>1</stoppingPower> -->
+        <!-- </projectile> -->
+		<!-- <modExtensions> -->
+			<!-- <li Class="taranchuk_lasers.LaserProperties"> -->
+				<!-- <damageTickRate>9</damageTickRate> -->
+				<!-- <lifetimeTicks>120</lifetimeTicks> -->
+				<!-- <beamWidth>1</beamWidth> -->
+				<!-- <beamWidthDrawScale>1</beamWidthDrawScale> -->
+				<!-- <sweepRatePerTick>0</sweepRatePerTick> -->
+				<!-- <maxSweepAngle>0</maxSweepAngle> -->
+				<!-- <damageThingsAcrossBeamLine>False</damageThingsAcrossBeamLine> -->
+				<!-- <debugCells>False</debugCells> -->
+				<!-- <textureScrollOffsetPerTick>(0,0)</textureScrollOffsetPerTick> -->
+				<!-- <lockOnTarget>False</lockOnTarget> -->
+			<!-- </li> -->
+		<!-- </modExtensions> -->
+	<!-- </ThingDef> -->
 	<ThingDef ParentName="BaseBullet">
-		<defName>GW_TotE_MeltaSpearProjectile</defName>
-		<label>Pyrithite Spear beam</label>
-		<thingClass>Projectile_Explosive</thingClass>
-		<graphicData>
-			<texPath>Things/Projectiles/Melta_Projectile</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.4</drawSize>
-		</graphicData>
-		<projectile>
-			<damageDef>RangedStab</damageDef>
-			<damageAmountBase>20</damageAmountBase>
-			<explosionRadius>0.1</explosionRadius>
-			<stoppingPower>1.7</stoppingPower>
-			<armorPenetrationBase>0.70</armorPenetrationBase>
-			<speed>50</speed>
-		</projectile>
-	</ThingDef>
+        <defName>GW_TotE_MeltaSpearProjectile</defName>
+        <label>Pyrithite Spear beam</label>
+        <description>melta beam</description>
+        <drawOffscreen>true</drawOffscreen>
+        <seeThroughFog>true</seeThroughFog>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Projectiles/Melta_Projectile</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <projectile>
+            <damageDef>Burn</damageDef>
+            <damageAmountBase>30</damageAmountBase>
+            <armorPenetrationBase>0.70</armorPenetrationBase>
+            <stoppingPower>2.0</stoppingPower>
+            <speed>50</speed>
+        </projectile>
+        <thingClass>taranchuk_lasers.LaserProjectile</thingClass>
+        <modExtensions>
+            <li Class="taranchuk_lasers.LaserProperties">
+                <damageTickRate>50</damageTickRate>
+                <lifetimeTicks>60</lifetimeTicks>
+                <beamWidth>1.5</beamWidth>
+                <beamWidthDrawScale>1</beamWidthDrawScale>
+                <sweepRatePerTick>0</sweepRatePerTick>
+                <maxSweepAngle>0</maxSweepAngle>
+                <damageThingsAcrossBeamLine>true</damageThingsAcrossBeamLine>
+                <debugCells>false</debugCells>
+                <textureScrollOffsetPerTick>(0, -0.1)</textureScrollOffsetPerTick>
+                <lockOnTarget>false</lockOnTarget>
+                <!-- <endEffecterDef>GW_MeltaEffecter</endEffecterDef>  -->
+            </li>
+        </modExtensions>
+    </ThingDef>
 	
 	<!-- Axes -->
 	<ThingDef Name="GW_TOE_AxeMeleeBase" ParentName="GW_TotE_BaseMakeableMelee" Abstract="True">
