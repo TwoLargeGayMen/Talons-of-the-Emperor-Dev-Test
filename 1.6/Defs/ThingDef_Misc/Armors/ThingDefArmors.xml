@@ -378,8 +378,7 @@
 		</equippedStatOffsets>
 		<apparel>
 			<wornGraphicPath>Things/CustodesArmors/SisterofSilence/CustodesSOS</wornGraphicPath>
-			<gender Inherit="False">Female</gender>
-			<developmentalStageFilter>Adult</developmentalStageFilter>
+			<gender>Female</gender>
 			<tags>
 				<li>GW_SisterOfSilence</li>
 			</tags>
