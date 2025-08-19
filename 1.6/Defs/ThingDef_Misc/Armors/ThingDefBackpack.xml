@@ -58,8 +58,8 @@
 	<!-- Venatari backpack -->
 	<ThingDef ParentName="GW_SM_TalonOfTheEmperorBackpackBase">
 		<defName>GW_TotE_VenatariBackpack</defName>
-		<label>Vanatari Jump Pack</label>
-		<description>WIP.</description>
+		<label>Vanatari jump pack</label>
+		<description>Vanatari jump pack is compact, personal propulsion units that allow rapid aerial movement, granting elite warriors exceptional mobility, close-range assault capability, and the ability to strike from unexpected angles.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Venatari/Backpack/VenatariJetpack_north</texPath>
 		</graphicData>

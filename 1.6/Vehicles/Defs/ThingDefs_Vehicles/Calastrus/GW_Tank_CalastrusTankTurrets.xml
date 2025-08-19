@@ -2,8 +2,8 @@
 <Defs>
     <ThingDef ParentName="GW_LaserBullet">
         <defName>GW_Calastruslas</defName>
-        <label>Accelerator Cannon shot</label>
-        <description>The Arachnus Heavy Blaze Cannon, WIP</description>
+        <label>Accelerator cannon shot</label>
+        <description>Arachnus heavy blaze cannon is a super-powered, turret-mounted lascannon that fires intensely concentrated high-energy beams, capable of annihilating heavily armored vehicles and fortified positions with devastating precision.</description>
         <projectile>
             <damageDef>Burn</damageDef>
             <damageAmountBase>400</damageAmountBase>

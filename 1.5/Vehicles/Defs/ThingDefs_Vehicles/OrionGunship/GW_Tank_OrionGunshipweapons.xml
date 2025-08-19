@@ -6,7 +6,7 @@
     <ThingDef ParentName="GW_LaserBullet" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
         <defName>GW_Orionlas</defName>
         <label>Heavy Blaze Cannon shot</label>
-        <description>The Arachnus Heavy Blaze Cannon, WIP</description>
+        <description>Arachnus heavy blaze cannon is a super-powered, turret-mounted lascannon that fires intensely concentrated high-energy beams, capable of annihilating heavily armored vehicles and fortified positions with devastating precision.</description>
         <textures>
             <li>Things/Projectiles/Las_Bolt</li>
         </textures>
@@ -25,8 +25,8 @@
 	
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_Orion_Lascannon</defName>
-		<label>Heavy Blaze Cannons</label>
-		<description>WIP</description>
+		<label>Heavy blaze cannons</label>
+		<description>Heavy blaze cannons are turret-mounted lascannons that fire concentrated, high-energy beams, designed to pierce heavily armored vehicles and fortified positions with precision.</description>
 		
 		<turretType>Rotatable</turretType>
 		<shotSound>OverlordLascannon</shotSound>
@@ -91,7 +91,7 @@
 
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 			<defName>GW_Orion_Bolter</defName>
-			<label>Bolt Cannons</label>
+			<label>Bolt cannons</label>
 			<description>The Heavy Bolter, a formidable weapon in the Warhammer 40,000 universe, is often mounted on vehicles to enhance their firepower. This versatile weapon, characterized by its rapid and powerful firepower, serves as a potent anti-infantry and suppressive tool on the battlefield. When mounted on a vehicle, it becomes a symbol of mobile and devastating firepower, capable of mowing down enemy infantry and providing valuable support in diverse combat scenarios.</description>
 			<turretType>Rotatable</turretType>
 
