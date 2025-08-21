@@ -320,10 +320,8 @@
 			<HP_Auramite>30</HP_Auramite>
 			<GW_ComponentRelic>1</GW_ComponentRelic>
 		</costList>
-		<stuffCategories>
-			<li>Imperial_Metals</li>
-		</stuffCategories>
-		<costStuffCount>300</costStuffCount>
+		<stuffCategories Inherit="False" IsNull="True" />
+		<costStuffCount />
 		<tools>
 			<li>
 			<label>handle</label>
