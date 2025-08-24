@@ -3,7 +3,7 @@
 <Defs>
 	<!--===== this def can be deleted safely if you do not need a slot for a new projectile =====-->
 
-    <ThingDef ParentName="GW_LaserBullet">
+    <ThingDef ParentName="GW_LaserBullet" Class="VEF.Weapons.LaserBeamDef">
         <defName>GW_Orionlas</defName>
         <label>Heavy Blaze Cannon shot</label>
         <description>Arachnus heavy blaze cannon is a super-powered, turret-mounted lascannon that fires intensely concentrated high-energy beams, capable of annihilating heavily armored vehicles and fortified positions with devastating precision.</description>

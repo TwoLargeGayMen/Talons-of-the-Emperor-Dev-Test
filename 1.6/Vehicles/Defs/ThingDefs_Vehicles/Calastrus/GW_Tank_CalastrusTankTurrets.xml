@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-    <ThingDef ParentName="GW_LaserBullet">
+    <ThingDef ParentName="GW_LaserBullet" Class="VEF.Weapons.LaserBeamDef">
         <defName>GW_Calastruslas</defName>
         <label>Accelerator cannon shot</label>
         <description>Arachnus heavy blaze cannon is a super-powered, turret-mounted lascannon that fires intensely concentrated high-energy beams, capable of annihilating heavily armored vehicles and fortified positions with devastating precision.</description>
@@ -61,6 +61,7 @@
 			</li>
 		</fireModes>
 
+		<gizmoIconTexPath>Things/Vehicles/Calastrus/CalastrusTurret1</gizmoIconTexPath>		
 		<graphicData>
 			<texPath>Things/Vehicles/Calastrus/CalastrusTurret1</texPath>
 			<graphicClass>Vehicles.Graphic_Turret</graphicClass>
@@ -81,7 +82,7 @@
 		<label>Twin Heavy Bolter</label>
 		<description>bolt.</description>
 		<turretType>Rotatable</turretType>
-		<shotSound>Shot_TurretSniper</shotSound>
+		<shotSound>GW_Heavy_Bolt_Gun_Sound</shotSound>
 		<projectile>GW_Bullet_HeavyBolter</projectile>
 		<reloadTimer>7.8</reloadTimer>
 		<warmUpTimer>1.0</warmUpTimer>
@@ -122,6 +123,7 @@
 				<texPath>UI/Gizmos/FireRate_Auto</texPath>
 			</li>
 		</fireModes>
+		<gizmoIconTexPath>Things/Vehicles/OverlordGunship/lasy</gizmoIconTexPath>		
 		<graphicData>
 			<texPath>Things/Vehicles/OverlordGunship/lasy</texPath>
 			<graphicClass>Vehicles.Graphic_Turret</graphicClass>
