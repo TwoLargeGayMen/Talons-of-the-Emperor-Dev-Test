@@ -111,16 +111,16 @@
 			<drawSize>1.8</drawSize>
 		</graphicData>
 		<comps>
-			<!-- <li Class="WeaponSwitch.CompProperties_SwitchWeapon"> -->
-				<!-- <weaponsToSwitch> -->
-					<!-- <li> -->
-						<!-- <label>Melee</label> -->
-						<!-- <description>Swap to Ranged</description> -->
-						<!-- <texPath>Things/Weapons/SpearBolter</texPath> -->
-						<!-- <weapon>GW_TotE_GuardianSpearR</weapon> -->
-					<!-- </li> -->
-				<!-- </weaponsToSwitch> -->
-			<!-- </li> -->
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+				<weaponsToSwitch>
+					<li>
+						<label>Melee</label>
+						<description>Swap to Ranged</description>
+						<texPath>Things/Weapons/SpearBolter</texPath>
+						<weapon>GW_TotE_GuardianSpearR</weapon>
+					</li>
+				</weaponsToSwitch>
+			</li>
 		</comps>
 	</ThingDef>
 	<!-- Guardian Spear Bolter -->
@@ -160,16 +160,16 @@
 			</li>
 		</verbs>
 		<comps>
-			<!-- <li Class="WeaponSwitch.CompProperties_SwitchWeapon"> -->
-				<!-- <weaponsToSwitch> -->
-					<!-- <li> -->
-						<!-- <label>Ranged</label> -->
-						<!-- <description>Swap to Melee</description> -->
-						<!-- <texPath>Things/Weapons/SpearBolter</texPath> -->
-						<!-- <weapon>GW_TotE_GuardianSpear</weapon> -->
-					<!-- </li> -->
-				<!-- </weaponsToSwitch> -->
-			<!-- </li> -->
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+				<weaponsToSwitch>
+					<li>
+						<label>Ranged</label>
+						<description>Swap to Melee</description>
+						<texPath>Things/Weapons/SpearBolter</texPath>
+						<weapon>GW_TotE_GuardianSpear</weapon>
+					</li>
+				</weaponsToSwitch>
+			</li>
 		</comps>
 	</ThingDef>
 
@@ -202,16 +202,16 @@
 			<drawSize>1.8</drawSize>
 		</graphicData>
 		<comps>
-			<!-- <li Class="WeaponSwitch.CompProperties_SwitchWeapon"> -->
-				<!-- <weaponsToSwitch> -->
-					<!-- <li> -->
-						<!-- <label>Melee</label> -->
-						<!-- <description>Swap to Ranged</description> -->
-						<!-- <texPath>Things/Weapons/SpearAdrathic</texPath> -->
-						<!-- <weapon>GW_TotE_AdrathicSpearR</weapon> -->
-					<!-- </li> -->
-				<!-- </weaponsToSwitch> -->
-			<!-- </li> -->
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+				<weaponsToSwitch>
+					<li>
+						<label>Melee</label>
+						<description>Swap to Ranged</description>
+						<texPath>Things/Weapons/SpearAdrathic</texPath>
+						<weapon>GW_TotE_AdrathicSpearR</weapon>
+					</li>
+				</weaponsToSwitch>
+			</li>
 		</comps>
 	</ThingDef>
 	<!-- Adrathic Spear Bolter -->
@@ -253,16 +253,16 @@
 			</li>
 		</verbs>
 		<comps>
-			<!-- <li Class="WeaponSwitch.CompProperties_SwitchWeapon"> -->
-				<!-- <weaponsToSwitch> -->
-					<!-- <li> -->
-						<!-- <label>Ranged</label> -->
-						<!-- <description>Swap to Melee</description> -->
-						<!-- <texPath>Things/Weapons/SpearAdrathic</texPath> -->
-						<!-- <weapon>GW_TotE_AdrathicSpear</weapon> -->
-					<!-- </li> -->
-				<!-- </weaponsToSwitch> -->
-			<!-- </li> -->
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+				<weaponsToSwitch>
+					<li>
+						<label>Ranged</label>
+						<description>Swap to Melee</description>
+						<texPath>Things/Weapons/SpearAdrathic</texPath>
+						<weapon>GW_TotE_AdrathicSpear</weapon>
+					</li>
+				</weaponsToSwitch>
+			</li>
 		</comps>
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
@@ -294,16 +294,16 @@
 			<drawSize>1.8</drawSize>
 		</graphicData>
 		<comps>
-			<!-- <li Class="WeaponSwitch.CompProperties_SwitchWeapon"> -->
-				<!-- <weaponsToSwitch> -->
-					<!-- <li> -->
-						<!-- <label>Melee</label> -->
-						<!-- <description>Swap to Ranged</description> -->
-						<!-- <texPath>Things/Weapons/SpearMelta</texPath> -->
-						<!-- <weapon>GW_TotE_MeltaSpearR</weapon> -->
-					<!-- </li> -->
-				<!-- </weaponsToSwitch> -->
-			<!-- </li> -->
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+				<weaponsToSwitch>
+					<li>
+						<label>Melee</label>
+						<description>Swap to Ranged</description>
+						<texPath>Things/Weapons/SpearMelta</texPath>
+						<weapon>GW_TotE_MeltaSpearR</weapon>
+					</li>
+				</weaponsToSwitch>
+			</li>
 		</comps>
 	</ThingDef>
 
@@ -341,7 +341,7 @@
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
 				<!-- <forcedMissRadius>1</forcedMissRadius> -->
                 <burstShotCount>1</burstShotCount>
-                <soundCast>Shot_SniperRifle</soundCast>
+                <soundCast>GW_Multi_Melta_Gun_Sound</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>		
                 <targetParams>
@@ -350,16 +350,16 @@
             </li>
 		</verbs>
 		<comps>
-			<!-- <li Class="WeaponSwitch.CompProperties_SwitchWeapon"> -->
-				<!-- <weaponsToSwitch> -->
-					<!-- <li> -->
-						<!-- <label>Ranged</label> -->
-						<!-- <description>Swap to Melee</description> -->
-						<!-- <texPath>Things/Weapons/SpearMelta</texPath> -->
-						<!-- <weapon>GW_TotE_MeltaSpear</weapon> -->
-					<!-- </li> -->
-				<!-- </weaponsToSwitch> -->
-			<!-- </li> -->
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+				<weaponsToSwitch>
+					<li>
+						<label>Ranged</label>
+						<description>Swap to Melee</description>
+						<texPath>Things/Weapons/SpearMelta</texPath>
+						<weapon>GW_TotE_MeltaSpear</weapon>
+					</li>
+				</weaponsToSwitch>
+			</li>
 		</comps>
 	</ThingDef>
 
@@ -375,7 +375,7 @@
             <damageAmountBase>30</damageAmountBase>
             <armorPenetrationBase>0.70</armorPenetrationBase>
             <stoppingPower>2.0</stoppingPower>
-            <speed>50</speed>
+            <speed>10000</speed>
         </projectile>
     </ThingDef>
 	
@@ -472,16 +472,16 @@
 			<drawSize>1.8</drawSize>
 		</graphicData>
 		<comps>
-			<!-- <li Class="WeaponSwitch.CompProperties_SwitchWeapon"> -->
-				<!-- <weaponsToSwitch> -->
-					<!-- <li> -->
-						<!-- <label>Melee</label> -->
-						<!-- <description>Swap to Ranged</description> -->
-						<!-- <texPath>Things/Weapons/CastellanAxe</texPath> -->
-						<!-- <weapon>GW_TotE_CastellanAxeR</weapon> -->
-					<!-- </li> -->
-				<!-- </weaponsToSwitch> -->
-			<!-- </li> -->
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+				<weaponsToSwitch>
+					<li>
+						<label>Melee</label>
+						<description>Swap to Ranged</description>
+						<texPath>Things/Weapons/CastellanAxe</texPath>
+						<weapon>GW_TotE_CastellanAxeR</weapon>
+					</li>
+				</weaponsToSwitch>
+			</li>
 			
 			<li Class="CompProperties_Biocodable">
 				<biocodeOnEquip>True</biocodeOnEquip>
@@ -569,16 +569,16 @@
 			</li>
 		</tools>
 		<comps>
-			<!-- <li Class="WeaponSwitch.CompProperties_SwitchWeapon"> -->
-				<!-- <weaponsToSwitch> -->
-					<!-- <li> -->
-						<!-- <label>Ranged</label> -->
-						<!-- <description>Swap to Melee</description> -->
-						<!-- <texPath>Things/Weapons/CastellanAxe</texPath> -->
-						<!-- <weapon>GW_TotE_CastellanAxe</weapon> -->
-					<!-- </li> -->
-				<!-- </weaponsToSwitch> -->
-			<!-- </li> -->
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+				<weaponsToSwitch>
+					<li>
+						<label>Ranged</label>
+						<description>Swap to Melee</description>
+						<texPath>Things/Weapons/CastellanAxe</texPath>
+						<weapon>GW_TotE_CastellanAxe</weapon>
+					</li>
+				</weaponsToSwitch>
+			</li>
 			
 			<li Class="CompProperties_Biocodable">
 				<biocodeOnEquip>True</biocodeOnEquip>
@@ -612,16 +612,16 @@
 			<drawSize>1.8</drawSize>
 		</graphicData>
 		<comps>
-			<!-- <li Class="WeaponSwitch.CompProperties_SwitchWeapon"> -->
-				<!-- <weaponsToSwitch> -->
-					<!-- <li> -->
-						<!-- <label>Melee</label> -->
-						<!-- <description>Swap to Ranged</description> -->
-						<!-- <texPath>Things/Weapons/WatchersAxe</texPath> -->
-						<!-- <weapon>GW_TotE_WatchersAxeR</weapon> -->
-					<!-- </li> -->
-				<!-- </weaponsToSwitch> -->
-			<!-- </li> -->
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+				<weaponsToSwitch>
+					<li>
+						<label>Melee</label>
+						<description>Swap to Ranged</description>
+						<texPath>Things/Weapons/WatchersAxe</texPath>
+						<weapon>GW_TotE_WatchersAxeR</weapon>
+					</li>
+				</weaponsToSwitch>
+			</li>
 			<li Class="CompProperties_Biocodable">
 				<biocodeOnEquip>True</biocodeOnEquip>
 			</li>
@@ -707,16 +707,16 @@
 			</li>
 		</tools>
 		<comps>
-			<!-- <li Class="WeaponSwitch.CompProperties_SwitchWeapon"> -->
-				<!-- <weaponsToSwitch> -->
-					<!-- <li> -->
-						<!-- <label>Ranged</label> -->
-						<!-- <description>Swap to Melee</description> -->
-						<!-- <texPath>Things/Weapons/WatchersAxe</texPath> -->
-						<!-- <weapon>GW_TotE_WatchersAxe</weapon> -->
-					<!-- </li> -->
-				<!-- </weaponsToSwitch> -->
-			<!-- </li> -->
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+				<weaponsToSwitch>
+					<li>
+						<label>Ranged</label>
+						<description>Swap to Melee</description>
+						<texPath>Things/Weapons/WatchersAxe</texPath>
+						<weapon>GW_TotE_WatchersAxe</weapon>
+					</li>
+				</weaponsToSwitch>
+			</li>
 			
 			<li Class="CompProperties_Biocodable">
 				<biocodeOnEquip>True</biocodeOnEquip>
