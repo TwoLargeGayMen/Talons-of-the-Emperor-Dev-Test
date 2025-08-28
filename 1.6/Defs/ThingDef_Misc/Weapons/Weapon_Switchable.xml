@@ -108,7 +108,7 @@
 			<texPath>Things/Weapons/SpearBolter</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<drawSize>1.8</drawSize>
+			<!-- <drawSize>1.0</drawSize> -->
 		</graphicData>
 		<comps>
 			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
@@ -132,7 +132,7 @@
 			<texPath>Things/Weapons/SpearBolter</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<drawSize>1.8</drawSize>
+			<!-- <drawSize>1.8</drawSize> -->
 		</graphicData>
 		<relicChance>0</relicChance>
 		<statBases>
@@ -179,7 +179,7 @@
 		<graphicData>
 			<texPath>Projectiles/AM_BoltPistol_Proj</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.8</drawSize>
+			<!-- <drawSize>1.8</drawSize> -->
 		</graphicData>
 		<projectile>
 			<damageDef>RangedStab</damageDef>
@@ -199,7 +199,7 @@
 			<texPath>Things/Weapons/SpearAdrathic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<drawSize>1.8</drawSize>
+			<!-- <drawSize>1.8</drawSize> -->
 		</graphicData>
 		<comps>
 			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
@@ -222,7 +222,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/SpearAdrathic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.8</drawSize>
+			<!-- <drawSize>1.8</drawSize> -->
 		</graphicData>
 		<relicChance>0</relicChance>
 		<statBases>
@@ -291,7 +291,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/SpearMelta</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.8</drawSize>
+			<!-- <drawSize>1.8</drawSize> -->
 		</graphicData>
 		<comps>
 			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
@@ -315,7 +315,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/SpearMelta</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.8</drawSize>
+			<!-- <drawSize>1.8</drawSize> -->
 		</graphicData>
 		<relicChance>0</relicChance>
 		<statBases>
@@ -469,7 +469,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/CastellanAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.8</drawSize>
+			<!-- <drawSize>1.8</drawSize> -->
 		</graphicData>
 		<comps>
 			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
@@ -520,7 +520,7 @@
 			<texPath>Things/Weapons/CastellanAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<drawSize>1.8</drawSize>
+			<!-- <drawSize>1.8</drawSize> -->
 		</graphicData>
 		<relicChance>0</relicChance>
 		<statBases>
@@ -609,7 +609,7 @@
 			<texPath>Things/Weapons/WatchersAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<drawSize>1.8</drawSize>
+			<!-- <drawSize>1.8</drawSize> -->
 		</graphicData>
 		<comps>
 			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
@@ -658,7 +658,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/WatchersAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.8</drawSize>
+			<!-- <drawSize>1.8</drawSize> -->
 		</graphicData>
 		<relicChance>0</relicChance>
 		<statBases>

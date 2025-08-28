@@ -35,7 +35,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/Misericordia</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.2</drawSize>
+			<!-- <drawSize>1.2</drawSize> -->
 		</graphicData>
 		<uiIconScale>1.0</uiIconScale>				
 		<statBases>
@@ -157,7 +157,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/Vexilla</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.45</drawSize>
+			<!-- <drawSize>1.45</drawSize> -->
 		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
@@ -246,7 +246,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/Vaultsword</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.6</drawSize>
+			<!-- <drawSize>1.6</drawSize> -->
 		</graphicData>
 		<uiIconScale>1.2</uiIconScale>			
 		<statBases>

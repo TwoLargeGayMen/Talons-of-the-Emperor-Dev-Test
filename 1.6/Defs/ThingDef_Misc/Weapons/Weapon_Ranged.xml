@@ -26,7 +26,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/AdrathicDestructor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.45</drawSize>
+			<!-- <drawSize>1.45</drawSize> -->
 		</graphicData>
 		<tradeability>Buyable</tradeability>
 		<recipeMaker IsNull="True" />
@@ -127,7 +127,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/AdrathicBoltCaliver</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.10</drawSize>
+			<!-- <drawSize>1.10</drawSize> -->
 		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
@@ -226,7 +226,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/Firepike</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.20</drawSize>
+			<!-- <drawSize>1.20</drawSize> -->
 		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
@@ -313,7 +313,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/KineticDestructor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.20</drawSize>
+			<!-- <drawSize>1.20</drawSize> -->
 		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
@@ -397,7 +397,7 @@
 		<graphicData>
 			<texPath>Things/Projectiles/Projectile_Bulletz</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.80</drawSize>
+			<!-- <drawSize>1.80</drawSize> -->
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
@@ -416,7 +416,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/CustodesSOS_Bolter</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.10</drawSize>
+			<!-- <drawSize>1.10</drawSize> -->
 		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
