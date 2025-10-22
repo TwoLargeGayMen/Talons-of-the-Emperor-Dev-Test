@@ -177,7 +177,7 @@
 		<defName>GW_TOE_GuardianSpearBolterProjectile</defName>
 		<label>Guardian Spear bolt</label>
 		<graphicData>
-			<texPath>Projectiles/AM_BoltPistol_Proj</texPath>
+			<texPath>Things/Projectiles/Bolter_Projectile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<!-- <drawSize>1.8</drawSize> -->
 		</graphicData>
@@ -368,10 +368,10 @@
         <label>Pyrithite Spear beam</label>
         <description>melta beam</description>
 		<textures>
-			<li>Things/Projectiles/Melta_Projectile</li>
+			<li>Things/Projectile/ChargeLanceShot</li>
 		</textures>
         <projectile>
-            <damageDef>Burn</damageDef>
+            <damageDef>Vaporize</damageDef>
             <damageAmountBase>30</damageAmountBase>
             <armorPenetrationBase>0.70</armorPenetrationBase>
             <stoppingPower>2.0</stoppingPower>
@@ -589,7 +589,7 @@
 		<defName>GW_TotE_CastellanAxeProjectile</defName>
 		<label>Castellan Axe bolt</label>
 		<graphicData>
-			<texPath>Projectiles/AM_BoltPistol_Proj</texPath>
+			<texPath>Things/Projectiles/Bolter_Projectile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -727,7 +727,7 @@
 		<defName>GW_TotE_WatchersAxeProjectile</defName>
 		<label>Watcher's Axe bolt</label>
 		<graphicData>
-			<texPath>Projectiles/AM_BoltPistol_Proj</texPath>
+			<texPath>Things/Projectiles/Bolter_Projectile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
